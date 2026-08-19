@@ -1,0 +1,35 @@
+{
+  "scoring": "GeoEyes official rule extraction; independent LLM judge not run",
+  "total_samples": 150,
+  "total_correct": 108,
+  "overall_accuracy": 0.72,
+  "categories": {
+    "Object properties/Object classification": {
+      "correct": 37,
+      "total": 50,
+      "accuracy": 0.74
+    },
+    "Object properties/Object color": {
+      "correct": 34,
+      "total": 50,
+      "accuracy": 0.68
+    },
+    "Object properties/Object motion state": {
+      "correct": 37,
+      "total": 50,
+      "accuracy": 0.74
+    }
+  },
+  "status_stats": {
+    "success": 150
+  },
+  "tool_usage": {
+    "total_calls": 150,
+    "model_calls": 117,
+    "synthetic_calls": 33,
+    "average_calls_per_sample": 1.0,
+    "samples_with_tool": 150,
+    "samples_with_model_tool": 117,
+    "samples_with_synthetic_tool": 33
+  }
+}

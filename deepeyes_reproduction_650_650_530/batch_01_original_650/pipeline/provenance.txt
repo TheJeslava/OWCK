@@ -1,0 +1,4 @@
+repo=nanocm/GeoEyes
+source=official main evaluation files
+model=initiacms/GeoEyes
+model_sha=7a0642355565684c9e4d40b2a88685c980f4103c
