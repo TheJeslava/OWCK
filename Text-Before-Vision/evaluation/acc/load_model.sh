@@ -1,0 +1,41 @@
+EXP_NAME=debug_text_en_cot__geollava_superrs
+
+PROJECT_NAME=agent_vlagent
+
+
+# export CUDA_VISIBLE_DEVICES=0
+# export CUDA_VISIBLE_DEVICES=1
+# export CUDA_VISIBLE_DEVICES=2
+# export CUDA_VISIBLE_DEVICES=3
+# export CUDA_VISIBLE_DEVICES=4
+# export CUDA_VISIBLE_DEVICES=5
+# export CUDA_VISIBLE_DEVICES=6
+# export CUDA_VISIBLE_DEVICES=7
+
+# STEP=16
+# PORT=6999
+
+# STEP=24
+# PORT=7000
+
+# STEP=32
+# PORT=7002
+
+# STEP=48
+# PORT=7004
+
+# STEP=56
+# PORT=7005
+
+STEP=64
+PORT=7006
+
+# STEP=72
+# PORT=7007
+
+# STEP=80
+# PORT=7008
+
+STEP_PATH=/path/to/${PROJECT_NAME}/${EXP_NAME}/global_step_${STEP}
+
+

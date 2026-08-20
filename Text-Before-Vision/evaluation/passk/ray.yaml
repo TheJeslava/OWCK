@@ -1,0 +1,21 @@
+http_options:
+  host: 127.0.0.1
+  port: 8000
+applications:
+- args:
+    llm_configs:
+        - model_loading_config:
+            model_id: 0114_text_en_exercise_noncot__geollava_superrs_step_32
+            model_source: ./tmp/0114_text_en_exercise_noncot__geollava_superrs/global_step_32/actor/huggingface
+          deployment_config:
+            autoscaling_config:
+                min_replicas: 16
+                max_replicas: 24
+          runtime_env:
+            env_vars:
+                VLLM_USE_V1: "1"
+          # engine_kwargs:
+          #   gpu_memory_utilization: 0.4
+  import_path: ray.serve.llm:build_openai_app
+  name: llm_app
+  route_prefix: "/"

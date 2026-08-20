@@ -1,0 +1,87 @@
+{
+  "overall_accuracy": 0.583076923076923,
+  "total_correct": 379,
+  "total_samples": 650,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 46,
+      "total": 50,
+      "accuracy": 0.92
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 42,
+      "total": 50,
+      "accuracy": 0.84
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 40,
+      "total": 50,
+      "accuracy": 0.8
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 22,
+      "total": 50,
+      "accuracy": 0.44
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 28,
+      "total": 50,
+      "accuracy": 0.56
+    },
+    "Counting/Overall counting": {
+      "correct": 14,
+      "total": 50,
+      "accuracy": 0.28
+    },
+    "Counting/Regional counting": {
+      "correct": 25,
+      "total": 50,
+      "accuracy": 0.5
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 20,
+      "total": 50,
+      "accuracy": 0.4
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 39,
+      "total": 50,
+      "accuracy": 0.78
+    },
+    "Object properties/Object classification": {
+      "correct": 26,
+      "total": 50,
+      "accuracy": 0.52
+    },
+    "Object properties/Object color": {
+      "correct": 22,
+      "total": 50,
+      "accuracy": 0.44
+    },
+    "Object properties/Object motion state": {
+      "correct": 40,
+      "total": 50,
+      "accuracy": 0.8
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 15,
+      "total": 50,
+      "accuracy": 0.3
+    }
+  },
+  "multi_choice_stats": {
+    "correct": 20,
+    "total": 50,
+    "accuracy": 0.4
+  },
+  "multi_image_stats": {
+    "correct": 22,
+    "total": 50,
+    "accuracy": 0.44
+  },
+  "method_stats": {
+    "rule": 621,
+    "llm": 29,
+    "error": 0
+  }
+}

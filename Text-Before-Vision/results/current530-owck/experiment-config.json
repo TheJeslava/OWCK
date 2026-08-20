@@ -1,0 +1,33 @@
+{
+  "experiment": "Text-Before-Vision OWCK-selected XLRS-530 PASS@1",
+  "dataset": {
+    "path": "/root/autodl-tmp/Text-Before-Vision/xlrsbench530",
+    "resolved_path": "/tmp/geoeyes530_input",
+    "samples": 530,
+    "categories": 13,
+    "selection": "OWCK next_530 selection"
+  },
+  "model": {
+    "path": "/dev/shm/tbv-hf-model",
+    "served_model_name": "tbv_owck530"
+  },
+  "runtime": {
+    "python": "/root/tbv-venv/bin/python",
+    "vllm": "0.10.2",
+    "tensor_parallel_size": 1,
+    "gpu_memory_utilization": 0.85,
+    "max_model_len": 128000,
+    "max_num_seqs": 4,
+    "limit_mm_per_prompt": {"image": 2},
+    "enforce_eager": true,
+    "attention_backend": "TRITON_ATTN_VLLM_V1",
+    "max_tokens": 1024,
+    "num_workers": 4,
+    "temperature": 0.0
+  },
+  "scoring": {
+    "script": "/root/autodl-tmp/score_zeabl_tbv_local.py",
+    "expected_samples": 530,
+    "protocol": "ZEABL deterministic TBV two-pass extraction; no LLM judge"
+  }
+}

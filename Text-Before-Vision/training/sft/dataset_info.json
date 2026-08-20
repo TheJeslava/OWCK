@@ -1,0 +1,32 @@
+{
+    "geollava_superrs": {
+        "file_name": "/path/to/geollava_superrs.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "messages",
+            "images": "images"
+        },
+        "tags": {
+            "role_tag": "role",
+            "content_tag": "content",
+            "user_tag": "user",
+            "assistant_tag": "assistant",
+            "system_tag": "system"
+        }
+    },
+    "text_en_cot": {
+        "file_name": "/path/to/text_148k_sft.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "messages",
+            "images": "images"
+        },
+        "tags": {
+            "role_tag": "role",
+            "content_tag": "content",
+            "user_tag": "user",
+            "assistant_tag": "assistant",
+            "system_tag": "system"
+        }
+    }
+}

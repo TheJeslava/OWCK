@@ -1,0 +1,14 @@
+. ./load_exp.sh
+echo $STEP_PATH
+sleep 2
+
+IP=127.0.0.1
+PORT=18901
+python judge_result_xlrsbench.py \
+    --model_name ${EXP_NAME}_step_${STEP} \
+    --api_key None \
+    --api_url http://${IP}:${PORT}/v1 \
+    --xlrsbench_path /path/to/converted_xlrs_data \
+    --save_path results/${EXP_NAME}_step_${STEP} \
+    --eval_model_name judge \
+    --num_workers 8
