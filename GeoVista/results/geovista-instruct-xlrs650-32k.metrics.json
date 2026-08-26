@@ -1,0 +1,108 @@
+{
+  "results": "GeoVista/results/geovista-instruct-xlrs650-32k.jsonl",
+  "reference_results": "x05/results/zoomearth-x05-balanced-650.jsonl",
+  "selection": "GeoVista/results/x05-balanced-650.local-selection.json",
+  "model_path": [
+    "GeoVista-7B-Instruct"
+  ],
+  "context_limit": 32768,
+  "samples": 650,
+  "status_counts": {
+    "ok": 650
+  },
+  "correct": 327,
+  "micro_accuracy": 0.5030769230769231,
+  "total_inference_seconds": 6195.742322992533,
+  "total_crops": 455,
+  "turn_distribution": {
+    "1": 274,
+    "2": 335,
+    "3": 37,
+    "4": 2,
+    "11": 1,
+    "30": 1
+  },
+  "max_context_tokens": 30255,
+  "max_context_local_position": 212,
+  "max_context_x05_position": 212,
+  "validation": {
+    "result_lines_650": true,
+    "reference_lines_650": true,
+    "unique_local_positions_650": true,
+    "unique_x05_positions_650": true,
+    "x05_positions_exact_0_to_649": true,
+    "identities_match_x05_exactly": true,
+    "local_positions_match_selection": true,
+    "categories_13_by_50": true,
+    "all_status_ok": true,
+    "all_context_limit_32768": true,
+    "all_x05_position_identity_links_match": true
+  },
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "samples": 50,
+      "correct": 29,
+      "accuracy": 0.58
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "samples": 50,
+      "correct": 38,
+      "accuracy": 0.76
+    },
+    "Complex reasoning/Route planning": {
+      "samples": 50,
+      "correct": 25,
+      "accuracy": 0.5
+    },
+    "Counting/Counting with changing detection": {
+      "samples": 50,
+      "correct": 16,
+      "accuracy": 0.32
+    },
+    "Counting/Counting with complex reasoning": {
+      "samples": 50,
+      "correct": 22,
+      "accuracy": 0.44
+    },
+    "Counting/Overall counting": {
+      "samples": 50,
+      "correct": 8,
+      "accuracy": 0.16
+    },
+    "Counting/Regional counting": {
+      "samples": 50,
+      "correct": 21,
+      "accuracy": 0.42
+    },
+    "Land use classification/Overall Land use classification": {
+      "samples": 50,
+      "correct": 2,
+      "accuracy": 0.04
+    },
+    "Land use classification/Regional Land use classification": {
+      "samples": 50,
+      "correct": 39,
+      "accuracy": 0.78
+    },
+    "Object properties/Object classification": {
+      "samples": 50,
+      "correct": 40,
+      "accuracy": 0.8
+    },
+    "Object properties/Object color": {
+      "samples": 50,
+      "correct": 34,
+      "accuracy": 0.68
+    },
+    "Object properties/Object motion state": {
+      "samples": 50,
+      "correct": 35,
+      "accuracy": 0.7
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "samples": 50,
+      "correct": 18,
+      "accuracy": 0.36
+    }
+  }
+}

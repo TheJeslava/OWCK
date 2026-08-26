@@ -1,0 +1,86 @@
+{
+  "model_path": "GeoVista-7B-Instruct",
+  "context_limit": 32768,
+  "samples": 650,
+  "status_counts": {
+    "ok": 650
+  },
+  "correct": 329,
+  "accuracy": 0.5061538461538462,
+  "total_crops": 457,
+  "total_inference_seconds": 6338.593470610678,
+  "turn_distribution": {
+    "1": 272,
+    "2": 337,
+    "3": 37,
+    "4": 2,
+    "11": 1,
+    "30": 1
+  },
+  "max_turns": 30,
+  "max_turns_position": 212,
+  "max_context_tokens": 30255,
+  "max_context_position": 212,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "samples": 50,
+      "correct": 29,
+      "accuracy": 0.58
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "samples": 50,
+      "correct": 38,
+      "accuracy": 0.76
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "samples": 50,
+      "correct": 18,
+      "accuracy": 0.36
+    },
+    "Counting/Overall counting": {
+      "samples": 50,
+      "correct": 8,
+      "accuracy": 0.16
+    },
+    "Counting/Counting with complex reasoning": {
+      "samples": 50,
+      "correct": 22,
+      "accuracy": 0.44
+    },
+    "Object properties/Object motion state": {
+      "samples": 60,
+      "correct": 41,
+      "accuracy": 0.6833333333333333
+    },
+    "Land use classification/Regional Land use classification": {
+      "samples": 50,
+      "correct": 39,
+      "accuracy": 0.78
+    },
+    "Object properties/Object color": {
+      "samples": 100,
+      "correct": 64,
+      "accuracy": 0.64
+    },
+    "Counting/Counting with changing detection": {
+      "samples": 50,
+      "correct": 16,
+      "accuracy": 0.32
+    },
+    "Complex reasoning/Route planning": {
+      "samples": 50,
+      "correct": 25,
+      "accuracy": 0.5
+    },
+    "Land use classification/Overall Land use classification": {
+      "samples": 50,
+      "correct": 2,
+      "accuracy": 0.04
+    },
+    "Object properties/Object classification": {
+      "samples": 40,
+      "correct": 27,
+      "accuracy": 0.675
+    }
+  }
+}
