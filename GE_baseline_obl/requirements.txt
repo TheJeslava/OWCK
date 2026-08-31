@@ -1,0 +1,10 @@
+# Tested runtime versions for the reported evaluation.
+vllm==0.7.3
+openai==1.109.1
+Pillow==11.0.0
+numpy==1.26.4
+tqdm==4.69.1
+requests==2.34.2
+transformers==4.57.6
+datasets==3.6.0
+# Install a host-compatible torch/CUDA build separately.

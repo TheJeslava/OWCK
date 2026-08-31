@@ -1,0 +1,81 @@
+{
+  "scoring": "GeoEyes official rule extraction; independent LLM judge not run",
+  "total_samples": 650,
+  "total_correct": 318,
+  "overall_accuracy": 0.48923076923076925,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 32,
+      "total": 50,
+      "accuracy": 0.64
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 40,
+      "total": 50,
+      "accuracy": 0.8
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 27,
+      "total": 50,
+      "accuracy": 0.54
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 31,
+      "total": 50,
+      "accuracy": 0.62
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 28,
+      "total": 50,
+      "accuracy": 0.56
+    },
+    "Counting/Overall counting": {
+      "correct": 18,
+      "total": 50,
+      "accuracy": 0.36
+    },
+    "Counting/Regional counting": {
+      "correct": 24,
+      "total": 50,
+      "accuracy": 0.48
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 2,
+      "total": 50,
+      "accuracy": 0.04
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 26,
+      "total": 50,
+      "accuracy": 0.52
+    },
+    "Object properties/Object classification": {
+      "correct": 23,
+      "total": 50,
+      "accuracy": 0.46
+    },
+    "Object properties/Object color": {
+      "correct": 15,
+      "total": 50,
+      "accuracy": 0.3
+    },
+    "Object properties/Object motion state": {
+      "correct": 33,
+      "total": 50,
+      "accuracy": 0.66
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 19,
+      "total": 50,
+      "accuracy": 0.38
+    }
+  },
+  "status_stats": {
+    "success": 650
+  },
+  "tool_usage": {
+    "total_calls": 0,
+    "average_calls_per_sample": 0.0,
+    "samples_with_tool": 0
+  }
+}

@@ -1,0 +1,12 @@
+# Deliberately excluded experiment artifacts.
+model/
+data/
+xlrsbench650/
+xlrsbench_smoke1/
+results/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.log
+__pycache__/
