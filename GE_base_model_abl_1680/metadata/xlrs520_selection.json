@@ -1,0 +1,5322 @@
+{
+  "dataset_id": "initiacms/XLRS-Bench-lite",
+  "dataset_revision": "e540ee2aa745ce9a83784ae76541ddb7f79f03ac",
+  "prior_selection_manifest": "metadata/xlrs760_selection.json",
+  "selection": "disjoint supplementary XLRS-520 via evenly spaced offsets",
+  "samples": 520,
+  "excluded_base_samples": 760,
+  "target_category_counts": {
+    "Complex reasoning/Anomaly Detection and Interpretation": 50,
+    "Complex reasoning/Environmental condition reasoning": 50,
+    "Object spatial relationship/Object spatial relationship": 50,
+    "Counting/Overall counting": 10,
+    "Counting/Counting with complex reasoning": 50,
+    "Land use classification/Regional Land use classification": 50,
+    "Object properties/Object color": 50,
+    "Counting/Counting with changing detection": 10,
+    "Complex reasoning/Route planning": 50,
+    "Land use classification/Overall Land use classification": 50,
+    "Object properties/Object classification": 50,
+    "Counting/Regional counting": 50
+  },
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "available_full": 100,
+      "excluded_by_760": 50,
+      "available_after_760": 50,
+      "selected": 50,
+      "official_positions": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99
+      ]
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "available_full": 100,
+      "excluded_by_760": 50,
+      "available_after_760": 50,
+      "selected": 50,
+      "official_positions": [
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        179,
+        181,
+        183,
+        185,
+        187,
+        189,
+        191,
+        193,
+        195,
+        197,
+        199
+      ]
+    },
+    "Complex reasoning/Route planning": {
+      "available_full": 100,
+      "excluded_by_760": 50,
+      "available_after_760": 50,
+      "selected": 50,
+      "official_positions": [
+        1981,
+        1983,
+        1985,
+        1987,
+        1989,
+        1991,
+        1993,
+        1995,
+        1997,
+        1999,
+        2001,
+        2003,
+        2005,
+        2007,
+        2009,
+        2011,
+        2013,
+        2015,
+        2017,
+        2019,
+        2021,
+        2023,
+        2025,
+        2027,
+        2029,
+        2031,
+        2033,
+        2035,
+        2037,
+        2039,
+        2041,
+        2043,
+        2045,
+        2047,
+        2049,
+        2051,
+        2053,
+        2055,
+        2057,
+        2059,
+        2061,
+        2063,
+        2065,
+        2067,
+        2069,
+        2071,
+        2073,
+        2075,
+        2077,
+        2079
+      ]
+    },
+    "Counting/Counting with changing detection": {
+      "available_full": 60,
+      "excluded_by_760": 50,
+      "available_after_760": 10,
+      "selected": 10,
+      "official_positions": [
+        1923,
+        1930,
+        1936,
+        1943,
+        1949,
+        1955,
+        1962,
+        1968,
+        1975,
+        1979
+      ]
+    },
+    "Counting/Counting with complex reasoning": {
+      "available_full": 100,
+      "excluded_by_760": 50,
+      "available_after_760": 50,
+      "selected": 50,
+      "official_positions": [
+        761,
+        763,
+        765,
+        767,
+        769,
+        771,
+        773,
+        775,
+        777,
+        779,
+        781,
+        783,
+        785,
+        787,
+        789,
+        791,
+        793,
+        795,
+        797,
+        799,
+        801,
+        803,
+        805,
+        807,
+        809,
+        811,
+        813,
+        815,
+        817,
+        819,
+        821,
+        823,
+        825,
+        827,
+        829,
+        831,
+        833,
+        835,
+        837,
+        839,
+        841,
+        843,
+        845,
+        847,
+        849,
+        851,
+        853,
+        855,
+        857,
+        859
+      ]
+    },
+    "Counting/Overall counting": {
+      "available_full": 60,
+      "excluded_by_760": 50,
+      "available_after_760": 10,
+      "selected": 10,
+      "official_positions": [
+        703,
+        710,
+        716,
+        723,
+        729,
+        735,
+        742,
+        748,
+        755,
+        759
+      ]
+    },
+    "Counting/Regional counting": {
+      "available_full": 100,
+      "excluded_by_760": 50,
+      "available_after_760": 50,
+      "selected": 50,
+      "official_positions": [
+        2981,
+        2983,
+        2985,
+        2987,
+        2989,
+        2991,
+        2993,
+        2995,
+        2997,
+        2999,
+        3001,
+        3003,
+        3005,
+        3007,
+        3009,
+        3011,
+        3013,
+        3015,
+        3017,
+        3019,
+        3021,
+        3023,
+        3025,
+        3027,
+        3029,
+        3031,
+        3033,
+        3035,
+        3037,
+        3039,
+        3041,
+        3043,
+        3045,
+        3047,
+        3049,
+        3051,
+        3053,
+        3055,
+        3057,
+        3059,
+        3061,
+        3063,
+        3065,
+        3067,
+        3069,
+        3071,
+        3073,
+        3075,
+        3077,
+        3079
+      ]
+    },
+    "Land use classification/Overall Land use classification": {
+      "available_full": 100,
+      "excluded_by_760": 50,
+      "available_after_760": 50,
+      "selected": 50,
+      "official_positions": [
+        2081,
+        2083,
+        2085,
+        2087,
+        2089,
+        2091,
+        2093,
+        2095,
+        2097,
+        2099,
+        2101,
+        2103,
+        2105,
+        2107,
+        2109,
+        2111,
+        2113,
+        2115,
+        2117,
+        2119,
+        2121,
+        2123,
+        2125,
+        2127,
+        2129,
+        2131,
+        2133,
+        2135,
+        2137,
+        2139,
+        2141,
+        2143,
+        2145,
+        2147,
+        2149,
+        2151,
+        2153,
+        2155,
+        2157,
+        2159,
+        2161,
+        2163,
+        2165,
+        2167,
+        2169,
+        2171,
+        2173,
+        2175,
+        2177,
+        2179
+      ]
+    },
+    "Land use classification/Regional Land use classification": {
+      "available_full": 200,
+      "excluded_by_760": 50,
+      "available_after_760": 150,
+      "selected": 50,
+      "official_positions": [
+        921,
+        925,
+        929,
+        933,
+        937,
+        941,
+        945,
+        949,
+        953,
+        957,
+        961,
+        965,
+        969,
+        972,
+        976,
+        980,
+        984,
+        988,
+        992,
+        996,
+        1000,
+        1004,
+        1008,
+        1012,
+        1016,
+        1022,
+        1026,
+        1030,
+        1034,
+        1038,
+        1042,
+        1046,
+        1050,
+        1054,
+        1058,
+        1062,
+        1066,
+        1069,
+        1073,
+        1077,
+        1081,
+        1085,
+        1089,
+        1093,
+        1097,
+        1101,
+        1105,
+        1109,
+        1113,
+        1117
+      ]
+    },
+    "Object properties/Object classification": {
+      "available_full": 800,
+      "excluded_by_760": 100,
+      "available_after_760": 700,
+      "selected": 50,
+      "official_positions": [
+        2182,
+        2198,
+        2212,
+        2231,
+        2247,
+        2263,
+        2277,
+        2296,
+        2312,
+        2328,
+        2342,
+        2361,
+        2377,
+        2393,
+        2407,
+        2426,
+        2442,
+        2456,
+        2472,
+        2491,
+        2507,
+        2521,
+        2537,
+        2556,
+        2572,
+        2586,
+        2602,
+        2621,
+        2637,
+        2651,
+        2667,
+        2686,
+        2702,
+        2716,
+        2732,
+        2751,
+        2765,
+        2781,
+        2797,
+        2816,
+        2830,
+        2846,
+        2862,
+        2881,
+        2895,
+        2911,
+        2927,
+        2946,
+        2960,
+        2976
+      ]
+    },
+    "Object properties/Object color": {
+      "available_full": 800,
+      "excluded_by_760": 100,
+      "available_after_760": 700,
+      "selected": 50,
+      "official_positions": [
+        1122,
+        1138,
+        1152,
+        1171,
+        1187,
+        1203,
+        1217,
+        1236,
+        1252,
+        1268,
+        1282,
+        1301,
+        1317,
+        1333,
+        1347,
+        1366,
+        1382,
+        1396,
+        1412,
+        1431,
+        1447,
+        1461,
+        1477,
+        1496,
+        1512,
+        1526,
+        1542,
+        1561,
+        1577,
+        1591,
+        1607,
+        1626,
+        1642,
+        1656,
+        1672,
+        1691,
+        1705,
+        1721,
+        1737,
+        1756,
+        1770,
+        1786,
+        1802,
+        1821,
+        1835,
+        1851,
+        1867,
+        1886,
+        1900,
+        1916
+      ]
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "available_full": 500,
+      "excluded_by_760": 50,
+      "available_after_760": 450,
+      "selected": 50,
+      "official_positions": [
+        201,
+        211,
+        221,
+        231,
+        242,
+        252,
+        262,
+        272,
+        282,
+        292,
+        301,
+        313,
+        323,
+        333,
+        343,
+        353,
+        362,
+        372,
+        384,
+        394,
+        404,
+        414,
+        423,
+        433,
+        443,
+        455,
+        465,
+        475,
+        484,
+        494,
+        504,
+        514,
+        526,
+        536,
+        545,
+        555,
+        565,
+        575,
+        585,
+        597,
+        606,
+        616,
+        626,
+        636,
+        646,
+        656,
+        667,
+        677,
+        687,
+        697
+      ]
+    }
+  },
+  "records": [
+    {
+      "selection_position": 0,
+      "official_position": 1,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 1,
+      "path": "MiniFrance/44-2013-0370-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "fcf560c0f9309590802a6c95e3c60858bbe54b24e5c13c2ba03039c2aa6e4145",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 1,
+      "official_position": 3,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 3,
+      "path": "MiniFrance/44-2013-0370-6745-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "913e5b118f19d28e8590ae7be5ee748c9fadb2167cef5226ed39322b09cba1d1",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 2,
+      "official_position": 5,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 5,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6119.png",
+      "identity_sha256": "af4b12c11e66402741360de6e65ffcbfbd01b60112226620f621f792a93a6a24",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 3,
+      "official_position": 7,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 7,
+      "path": "HRSCD/2012/35-2012-0350-6795-LA93-0M50-E080.tif",
+      "identity_sha256": "39ce871d0e1935b2f08181b00680cf2beaf976e27ba57f10aeff1378b972c52d",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 4,
+      "official_position": 9,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 9,
+      "path": "HRSCD/2012/35-2012-0350-6815-LA93-0M50-E080.tif",
+      "identity_sha256": "388bf5b7eaaa7269c3e19933d64e8ffaf93f5d1a8f7b324d531f24c74d0ccd58",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 5,
+      "official_position": 11,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 11,
+      "path": "MiniFrance/44-2013-0310-6685-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "09e8caa27144edaecc2797b7b3b790caba5982e67d3b25975b3a2dd4a71535f0",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 6,
+      "official_position": 13,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 13,
+      "path": "MiniFrance/56-2013-0235-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "8156f4f8c964928558cf7492d63ace53815efbea09f3970040c517ad3dd0904d",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 7,
+      "official_position": 15,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 15,
+      "path": "MiniFrance/44-2013-0375-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "784d0acaa90db7184998d49c801f78a5fa334b285cdc8b53b7ca76385c74df03",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 8,
+      "official_position": 17,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 17,
+      "path": "MiniFrance/56-2013-0285-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "58eb3260ae27a467882839228468954a7225affa604bac4f57ee473d4c3c4c77",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 9,
+      "official_position": 19,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 19,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7770.png",
+      "identity_sha256": "3ee2db8c82663600f75e60eeb5ca6378578a91e35ce914bbcbb6da5ee7f41227",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 10,
+      "official_position": 21,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 21,
+      "path": "HRSCD/2012/35-2012-0345-6785-LA93-0M50-E080.tif",
+      "identity_sha256": "bb40b4c914ad6c0da2f7d715b23f5ef096741df781eb994e8df272abcc19d4ea",
+      "candidate_offset": 10
+    },
+    {
+      "selection_position": 11,
+      "official_position": 23,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 23,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9560.png",
+      "identity_sha256": "0276f36393b35bcd13cd7342c74789eb1eeed91ae97048f661678075504cd26f",
+      "candidate_offset": 11
+    },
+    {
+      "selection_position": 12,
+      "official_position": 25,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 25,
+      "path": "ITCVD/00147.jpg",
+      "identity_sha256": "4cef4e4257b02584baee7185ec443cae925e272a30d198861a963d442c9f76fe",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 13,
+      "official_position": 27,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 27,
+      "path": "MiniFrance/44-2013-0320-6700-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "4b2b5ce02e23902b516482f89d581c8c8c5efd875f7a54983cc305ba26aebca7",
+      "candidate_offset": 13
+    },
+    {
+      "selection_position": 14,
+      "official_position": 29,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 29,
+      "path": "MiniFrance/44-2013-0340-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "13889e202a3953cf8e7f2783692e00ffa0fb1e5b5d5b29dc55f5b4d6f52bccc9",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 15,
+      "official_position": 31,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 31,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5034.png",
+      "identity_sha256": "bb84a9fa7d076bc95998d9f9ee7e4d0f024b8044220b8ca87da5e70f86878bd5",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 16,
+      "official_position": 33,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 33,
+      "path": "MiniFrance/44-2013-0340-6690-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "34f311b70924b39078e71504cb9dcf32e6a5ba6edf5cf43e5f0982c0bc20c597",
+      "candidate_offset": 16
+    },
+    {
+      "selection_position": 17,
+      "official_position": 35,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 35,
+      "path": "MiniFrance/59-2012-0725-7030-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "259eb43b58ca52ab417ba8fb8b99063c1f3bb1d3787dd7293da499056ad9fb93",
+      "candidate_offset": 17
+    },
+    {
+      "selection_position": 18,
+      "official_position": 37,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 37,
+      "path": "MiniFrance/44-2013-0365-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "1c17d360dd79aa3b4304cf4f1c58d66d45c9c5c1ab49e48e100f4efbf1f2fd6d",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 19,
+      "official_position": 39,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 39,
+      "path": "ITCVD/00001.jpg",
+      "identity_sha256": "451e7645d64bcd7e626c10ea172e58304d094588f320d231abe43096150860ad",
+      "candidate_offset": 19
+    },
+    {
+      "selection_position": 20,
+      "official_position": 41,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 41,
+      "path": "MiniFrance/14-2012-0420-6875-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "abdc134ddde71b6abc600a3af0f9c824690f1e0c1d3f4631e2142fb303995693",
+      "candidate_offset": 20
+    },
+    {
+      "selection_position": 21,
+      "official_position": 43,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 43,
+      "path": "HRSCD/2006/35-2006-0335-6810-LA93.tif",
+      "identity_sha256": "263d8c60ff3dc61efba7007bb0c0a626f6f76a71290ab9072eacfc151b3e91d6",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 22,
+      "official_position": 45,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 45,
+      "path": "Toronto/03557_Toronto.png",
+      "identity_sha256": "95e4ac45951d501b8270a6e8a3b5f8ff37d62cce87129186927e78e54f8c911a",
+      "candidate_offset": 22
+    },
+    {
+      "selection_position": 23,
+      "official_position": 47,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 47,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P9551.png",
+      "identity_sha256": "e8948223870de91799a958a781883b274b64b312733400bca44bff21dcfe4675",
+      "candidate_offset": 23
+    },
+    {
+      "selection_position": 24,
+      "official_position": 49,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 49,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8890.png",
+      "identity_sha256": "8e4b55421449f687ab9b3b4e1cee490d7648cf63b33cb79aa298e640bf211535",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 25,
+      "official_position": 51,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 51,
+      "path": "MiniFrance/29-2012-0150-6825-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "e4a4c80f29b28469ab41841658363c1931e029573b779eee75ffafd4c48d5170",
+      "candidate_offset": 25
+    },
+    {
+      "selection_position": 26,
+      "official_position": 53,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 53,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3448.png",
+      "identity_sha256": "d12433f1c6b68439cda9944766afd69c17c5eda5d056b11655b509509c9d0c36",
+      "candidate_offset": 26
+    },
+    {
+      "selection_position": 27,
+      "official_position": 55,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 55,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9530.png",
+      "identity_sha256": "863cd9e7e52ab52640f1e329bd1013f9667ade6a9f33b0cc58b28c838f7ca221",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 28,
+      "official_position": 57,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 57,
+      "path": "HRSCD/2012/35-2012-0365-6760-LA93-0M50-E080.tif",
+      "identity_sha256": "ec550592bbb6ddbf93b8dd2cad2aa52cb951c48f29376757c3b12b0ac603f3d1",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 29,
+      "official_position": 59,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 59,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5484.png",
+      "identity_sha256": "072142dc5b6218b16b44d9048e0388869c94dba13514486939837808027e26af",
+      "candidate_offset": 29
+    },
+    {
+      "selection_position": 30,
+      "official_position": 61,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 61,
+      "path": "HRSCD/2012/35-2012-0360-6755-LA93-0M50-E080.tif",
+      "identity_sha256": "b0fb440b0710d307beb522a3ed0449961fc968bf226f3f67f66b604cc07aa705",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 31,
+      "official_position": 63,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 63,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P9918.png",
+      "identity_sha256": "7dc62f9f26c15d09d09d7c000e69d4ed5c71c68fff41f87df6be5ca01377fa74",
+      "candidate_offset": 31
+    },
+    {
+      "selection_position": 32,
+      "official_position": 65,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 65,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6725.png",
+      "identity_sha256": "64ba1c65107b54c1c6038a3687c36533aa767094a35bc1c5098a8ca12e1c7bfd",
+      "candidate_offset": 32
+    },
+    {
+      "selection_position": 33,
+      "official_position": 67,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 67,
+      "path": "MiniFrance/62-2012-0700-7045-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "e6acc820a9fc521c4d0f18affdcea8bd9fc1599770a9a727327fa51eb03b5daa",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 34,
+      "official_position": 69,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 69,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4186.png",
+      "identity_sha256": "e5fbd701133b764190dee7d642015d9654cbc3535853a34b7b1c1ff22c29a9a4",
+      "candidate_offset": 34
+    },
+    {
+      "selection_position": 35,
+      "official_position": 71,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 71,
+      "path": "MiniFrance/29-2012-0140-6825-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "bb05c0a4e0aa39552c5900fb85541563a7814e7c2c7a853dec5cbfc72b4beba2",
+      "candidate_offset": 35
+    },
+    {
+      "selection_position": 36,
+      "official_position": 73,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 73,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4575.png",
+      "identity_sha256": "98a7b38f305035a3ddf1e3b6847e99c7650dc237a4ee6f16fa55549a4d996742",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 37,
+      "official_position": 75,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 75,
+      "path": "HRSCD/2006/35-2006-0370-6775-LA93.tif",
+      "identity_sha256": "6e49bb954088b3d3e00b49bc10a3c73a509e35b389312b49b5264f559a56c862",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 38,
+      "official_position": 77,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 77,
+      "path": "HRSCD/2006/35-2006-0330-6780-LA93.tif",
+      "identity_sha256": "dc8afe6fc00d6c03e6614b5450d88f91029542a168cfc9ad66dddd50e1655874",
+      "candidate_offset": 38
+    },
+    {
+      "selection_position": 39,
+      "official_position": 79,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 79,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11102.png",
+      "identity_sha256": "d7312f5d799cac55aeae7e5a1a7c874a1db211799219c1376fae210183277cb5",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 40,
+      "official_position": 81,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 81,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6882.png",
+      "identity_sha256": "997ed2f377b72f47e05327c116cf38e336675fa00bfe1d573113bcf6f9939b93",
+      "candidate_offset": 40
+    },
+    {
+      "selection_position": 41,
+      "official_position": 83,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 83,
+      "path": "HRSCD/2006/35-2006-0380-6800-LA93.tif",
+      "identity_sha256": "e807ce5d04f2e8d567b4a2a77a6aa93e05eb504e773179617e0c0d47fbd99d28",
+      "candidate_offset": 41
+    },
+    {
+      "selection_position": 42,
+      "official_position": 85,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 85,
+      "path": "MiniFrance/44-2013-0400-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "08b7e60bc7f3c0edfcca290ea187405dcf3286722c6d87ef0f4cadbdb6a38f17",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 43,
+      "official_position": 87,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 87,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5803.png",
+      "identity_sha256": "9b6a4118c5c31830bd4f4359af1035d0974e090e74512e2561ee3aac40b0817e",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 44,
+      "official_position": 89,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 89,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P9044.png",
+      "identity_sha256": "a6649b484f591078aaa5f5940f86f1655eaeac41aaca7caed1acb237b4adb6e1",
+      "candidate_offset": 44
+    },
+    {
+      "selection_position": 45,
+      "official_position": 91,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 91,
+      "path": "HRSCD/2012/35-2012-0375-6810-LA93-0M50-E080.tif",
+      "identity_sha256": "72127a572ba0343ec31af0d90259853f7cda31f87e8aa7d45545c30b16c2f987",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 46,
+      "official_position": 93,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 93,
+      "path": "MiniFrance/29-2012-0180-6835-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "38e2ed17bc9b95a58f5e21d40c9a3fc0b9742ba1b83b42899da0616f33f453f3",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 47,
+      "official_position": 95,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 95,
+      "path": "HRSCD/2006/35-2006-0365-6815-LA93.tif",
+      "identity_sha256": "0fb02e33b0ca65b8704590967f79518999516ffa7b4a7a384197cd60000baa17",
+      "candidate_offset": 47
+    },
+    {
+      "selection_position": 48,
+      "official_position": 97,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 97,
+      "path": "MiniFrance/44-2013-0365-6740-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "244c656ef857cad0b4cee8aeb8e681a0f0e30eb24ad744a4e11d7f2f2c5e1b1f",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 49,
+      "official_position": 99,
+      "category": "Complex reasoning/Anomaly Detection and Interpretation",
+      "index": 99,
+      "path": "HRSCD/2012/35-2012-0360-6810-LA93-0M50-E080.tif",
+      "identity_sha256": "537dc8534b7eeccf132f8d19d1174fd59950a4cd18f19d6ff3c2cdc4231fb8a5",
+      "candidate_offset": 49
+    },
+    {
+      "selection_position": 50,
+      "official_position": 101,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 1,
+      "path": "HRSCD/2006/35-2006-0360-6825-LA93.tif",
+      "identity_sha256": "f61f6e57bbd3eb67248283dd1343db19dacecdbc9415ea7bb75e2ae5f94cd6a7",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 51,
+      "official_position": 103,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 3,
+      "path": "MiniFrance/44-2013-0310-6710-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "7654b35bbdc7754846b1e94216bc9c4366c8299eaa21e327b07d782923a0f293",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 52,
+      "official_position": 105,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 5,
+      "path": "MiniFrance/29-2012-0160-6855-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "50491783b27b3a573074e0383859af211752c36fa1916bc5d6384ec5dae08c89",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 53,
+      "official_position": 107,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 7,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5947.png",
+      "identity_sha256": "51b7aa67d2475c692adaeed5fec5be4361459ab0d2ea2940244b512e31bb5cab",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 54,
+      "official_position": 109,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 9,
+      "path": "HRSCD/2006/35-2006-0345-6815-LA93.tif",
+      "identity_sha256": "fede9257c158ae82211556be2f96368f0aa1e67ed34e85ece4218c84d11725d6",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 55,
+      "official_position": 111,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 11,
+      "path": "MiniFrance/44-2013-0365-6750-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "09970601c6f81ce089f7935add7a9a614ae4cdc7c24412ad00d24dee436bbbae",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 56,
+      "official_position": 113,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 13,
+      "path": "MiniFrance/29-2012-0195-6855-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "85cd2d83debf9c33920a39d4f6126d1d6786003d3e4f801d81aa53000064d931",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 57,
+      "official_position": 115,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 15,
+      "path": "ITCVD/00049.jpg",
+      "identity_sha256": "645c126bdf9de1fa8105a62e3d5e98d964c6cea61cb800c0eb94f483a04fda07",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 58,
+      "official_position": 117,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 17,
+      "path": "HRSCD/2012/35-2012-0365-6800-LA93-0M50-E080.tif",
+      "identity_sha256": "875f31e61e0862405e91462311d5e24215a2ad13012625f1d13f300786c37eaf",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 59,
+      "official_position": 119,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 19,
+      "path": "HRSCD/2006/35-2006-0375-6810-LA93.tif",
+      "identity_sha256": "6543ed222b5be49941abf6a8de08111d19c3ef1a4dd6dba5676eb3604abd1a8f",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 60,
+      "official_position": 121,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 21,
+      "path": "HRSCD/2012/35-2012-0375-6805-LA93-0M50-E080.tif",
+      "identity_sha256": "2fd83c16712e398bb8f599b7813a86bd87a4c4943d894e6c23f5daa3a82fcecd",
+      "candidate_offset": 10
+    },
+    {
+      "selection_position": 61,
+      "official_position": 123,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 23,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P4894.png",
+      "identity_sha256": "e7aa1749abcd5fba2e01dc3c7b5317fde468695db6ad227d3e68612c69047f80",
+      "candidate_offset": 11
+    },
+    {
+      "selection_position": 62,
+      "official_position": 125,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 25,
+      "path": "MiniFrance/44-2013-0375-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "eecba253391c833cd3a26a407cd657779bcf477f2ef5340e2743b4f13e6cdd5a",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 63,
+      "official_position": 127,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 27,
+      "path": "MiniFrance/44-2013-0295-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "ae2cfaeeee9f8add7e4443bef6a068972231c74bf32bc8e1c5c2db5dda07ca37",
+      "candidate_offset": 13
+    },
+    {
+      "selection_position": 64,
+      "official_position": 129,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 29,
+      "path": "MiniFrance/44-2013-0340-6655-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "a71e6f0b0a2db19f22b13b0c917b10d6bc85352965110de5fae614d23eea4973",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 65,
+      "official_position": 131,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 31,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3374.png",
+      "identity_sha256": "26c73f8c14d9dc992611097ccbad5dd880b30148042674d5b96c64a365a7f7e0",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 66,
+      "official_position": 133,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 33,
+      "path": "MiniFrance/22-2012-0210-6855-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "a571c816fcc0179558fee67e24c7299c2e435d55d91bd64cd8ec6e5ee643441c",
+      "candidate_offset": 16
+    },
+    {
+      "selection_position": 67,
+      "official_position": 135,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 35,
+      "path": "MiniFrance/56-2013-0310-6735-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "841402011a19bc3c3bbb7d0eff8fe48f9e7758d05d4f6c80872d3c4c02174771",
+      "candidate_offset": 17
+    },
+    {
+      "selection_position": 68,
+      "official_position": 137,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 37,
+      "path": "HRSCD/2006/35-2006-0345-6770-LA93.tif",
+      "identity_sha256": "996fca4e828167fb10b7b30bbc5aec16199e4a343499b8ca0be6cc3035e4f9a8",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 69,
+      "official_position": 139,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 39,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3613.png",
+      "identity_sha256": "f60bdf9dc4801986a7cef29c7527dffa1886f4a23326f7222b960ee07d820074",
+      "candidate_offset": 19
+    },
+    {
+      "selection_position": 70,
+      "official_position": 141,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 41,
+      "path": "ITCVD/00014.jpg",
+      "identity_sha256": "0bf2beb0de6d1df7c3ae6104b601f8b17d257ec501704ae6478900d08e4f7e79",
+      "candidate_offset": 20
+    },
+    {
+      "selection_position": 71,
+      "official_position": 143,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 43,
+      "path": "MiniFrance/44-2013-0375-6735-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "8c835c88b863558bf8bed1b98317b14d917ba67deffaab2ab7ed4a248fdc5432",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 72,
+      "official_position": 145,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 45,
+      "path": "MiniFrance/62-2012-0620-7090-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "23658b400e3c3e687fec2033d03947cd6c68c8a58faa4739c0d28b4cd84102fe",
+      "candidate_offset": 22
+    },
+    {
+      "selection_position": 73,
+      "official_position": 147,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 47,
+      "path": "MiniFrance/29-2012-0125-6850-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "7aa1eae3c85c0d19e0cf858449e428baa957e6bf49d948b0c7a32553c8359ecc",
+      "candidate_offset": 23
+    },
+    {
+      "selection_position": 74,
+      "official_position": 149,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 49,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11099.png",
+      "identity_sha256": "a92eff27990f72ad466fe955e2d8f21439d86fb95db9e3aec23649413fae86f8",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 75,
+      "official_position": 151,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 51,
+      "path": "HRSCD/2006/35-2006-0335-6760-LA93.tif",
+      "identity_sha256": "5231f4f6c2f5e0ddfcb293863571f8f44c3c1c0f1848713dd72b049eab611f0d",
+      "candidate_offset": 25
+    },
+    {
+      "selection_position": 76,
+      "official_position": 153,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 53,
+      "path": "MiniFrance/59-2012-0705-7055-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "47135f1252667e429149bca12fc288215153e9c3c606e9187c02714c264d5089",
+      "candidate_offset": 26
+    },
+    {
+      "selection_position": 77,
+      "official_position": 155,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 55,
+      "path": "HRSCD/2006/35-2006-0360-6785-LA93.tif",
+      "identity_sha256": "63d6f8f92282d296d525e8a136f5c1d1b82ed4dec92938b3159da2ae6ab457a0",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 78,
+      "official_position": 157,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 57,
+      "path": "HRSCD/2012/35-2012-0350-6820-LA93-0M50-E080.tif",
+      "identity_sha256": "abcd4f747638772937748bdb635fccedcc1bd6d3a587d3ee61870327a7f6766f",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 79,
+      "official_position": 159,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 59,
+      "path": "MiniFrance/44-2013-0385-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "36db7554245310cd887e9c5f58c5b2f906d2727ca2478dc0458d602996bcd22d",
+      "candidate_offset": 29
+    },
+    {
+      "selection_position": 80,
+      "official_position": 161,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 61,
+      "path": "HRSCD/2006/35-2006-0345-6810-LA93.tif",
+      "identity_sha256": "67d249a8bdf4ca54d20a6319170dddcdee39647ed01709e775c08b48286b0c1b",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 81,
+      "official_position": 163,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 63,
+      "path": "MiniFrance/44-2013-0345-6670-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "21e6bb54e394ca86603765146a3465906f04c3d36f485124851c2e2993034002",
+      "candidate_offset": 31
+    },
+    {
+      "selection_position": 82,
+      "official_position": 165,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 65,
+      "path": "Toronto/03755_Toronto.png",
+      "identity_sha256": "fce12775167dfc14fbf85083855aad128ac57b1a87fe6797b2c85c63db0c2b73",
+      "candidate_offset": 32
+    },
+    {
+      "selection_position": 83,
+      "official_position": 167,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 67,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11190.png",
+      "identity_sha256": "689ef1c6050b620765ae0f0a13f2f8f4c09a63cee18cca9c69f87c0253f25537",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 84,
+      "official_position": 169,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 69,
+      "path": "ITCVD/00063.jpg",
+      "identity_sha256": "892c1fb5c541cf008e07231a6d7a9a56c262ff2c3c672796d27a2ba754b96c68",
+      "candidate_offset": 34
+    },
+    {
+      "selection_position": 85,
+      "official_position": 171,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 71,
+      "path": "MiniFrance/62-2012-0695-7025-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "c303e0330b31134baed29f15f508167e56bb32dac94daaaa509d9f941a52aab5",
+      "candidate_offset": 35
+    },
+    {
+      "selection_position": 86,
+      "official_position": 173,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 73,
+      "path": "MiniFrance/22-2012-0230-6865-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "2f9fd0caafc4032213d0d8aeb97016e4463ee2a2c4f2aaba6c107a269f7f9e51",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 87,
+      "official_position": 175,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 75,
+      "path": "Potsdam/top_potsdam_3_12_RGB_Potsdam.png",
+      "identity_sha256": "ec6d7d10d03ec2215195a554e2edc0015aae6914d754d5a21e3383acc614d602",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 88,
+      "official_position": 177,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 77,
+      "path": "HRSCD/2006/35-2006-0365-6820-LA93.tif",
+      "identity_sha256": "772dc2dc0b516762f0824afde86878d386a8d1faf96e3ab20a265d6fe71baa94",
+      "candidate_offset": 38
+    },
+    {
+      "selection_position": 89,
+      "official_position": 179,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 79,
+      "path": "MiniFrance/62-2012-0700-7040-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "afc660e0d880c428b36b454966bbf060ed577e25b168191411418d7282f3029c",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 90,
+      "official_position": 181,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 81,
+      "path": "MiniFrance/44-2013-0330-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "2bcb88f772862b0a7f2bd0f1430da216727629242c74b4485debc4c6210f14f1",
+      "candidate_offset": 40
+    },
+    {
+      "selection_position": 91,
+      "official_position": 183,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 83,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8949.png",
+      "identity_sha256": "5e77877ad23e52acc636aa6a100c71dc55965acd0bb19b155f2dacb70b103eae",
+      "candidate_offset": 41
+    },
+    {
+      "selection_position": 92,
+      "official_position": 185,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 85,
+      "path": "HRSCD/2012/35-2012-0335-6825-LA93-0M50-E080.tif",
+      "identity_sha256": "dd8444b046f117a75716d389dd33f6a877941298ead7aeb0565e0fa27e5f8517",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 93,
+      "official_position": 187,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 87,
+      "path": "MiniFrance/22-2012-0210-6850-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "d8e1099e929adc2d53c6a0b1b1f400704bbdfec6f4d9e9fdc911163ff9f8db64",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 94,
+      "official_position": 189,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 89,
+      "path": "MiniFrance/29-2012-0180-6865-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "16828fdd0415d1b0985fc4bd90d4fd50136e202e97aee4f2623512ddec6ee03e",
+      "candidate_offset": 44
+    },
+    {
+      "selection_position": 95,
+      "official_position": 191,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 91,
+      "path": "Potsdam/top_potsdam_6_13_RGB_Potsdam.png",
+      "identity_sha256": "e6cf4ce73de39a7149443998e932336ee8eabb3ad093d9af82164d81dbc04e22",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 96,
+      "official_position": 193,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 93,
+      "path": "MiniFrance/44-2013-0295-6710-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "008d187df70a061b8f2e436437f2b43f4e5e2d88d5595162d0e655aeac574f0f",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 97,
+      "official_position": 195,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 95,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4269.png",
+      "identity_sha256": "40cf6de342a6d35c900cb7b7de874ab2f2760e5dd4386ebe76df58082f6fd2d3",
+      "candidate_offset": 47
+    },
+    {
+      "selection_position": 98,
+      "official_position": 197,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 97,
+      "path": "ITCVD/00103.jpg",
+      "identity_sha256": "80a2d02964dbca9a9e7b99480f4d55fa97e1ff6a74bc9c59e2557e6f5383fdeb",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 99,
+      "official_position": 199,
+      "category": "Complex reasoning/Environmental condition reasoning",
+      "index": 99,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5277.png",
+      "identity_sha256": "03be07878d24a0acb4b36a3cecb09bd98127a296182a019e89e1ac74777de5b6",
+      "candidate_offset": 49
+    },
+    {
+      "selection_position": 100,
+      "official_position": 1981,
+      "category": "Complex reasoning/Route planning",
+      "index": 1,
+      "path": "MiniFrance/56-2013-0310-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "bc6f51bab0f6a2687e716b7afe7b1bcd4556ecf5cc30edf6f8fbb7a8ff2cfb1f",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 101,
+      "official_position": 1983,
+      "category": "Complex reasoning/Route planning",
+      "index": 3,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8110.png",
+      "identity_sha256": "377cf3af5ee9aa526aa186101cc57c393026e51de3e58cea3d3ad81c5d8a5325",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 102,
+      "official_position": 1985,
+      "category": "Complex reasoning/Route planning",
+      "index": 5,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3717.png",
+      "identity_sha256": "b8f403ee4a629e8cca6b0eff41797b705d9274d42fa1f54fe75ab846d149e4ea",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 103,
+      "official_position": 1987,
+      "category": "Complex reasoning/Route planning",
+      "index": 7,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10729.png",
+      "identity_sha256": "7c822d488772de2ff6ab1fb9f6002de64a3cb30fbc8dabb12e9950045bc5c541",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 104,
+      "official_position": 1989,
+      "category": "Complex reasoning/Route planning",
+      "index": 9,
+      "path": "MiniFrance/44-2013-0335-6695-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "9d37d896b284ef7896237704f4a10d498bb4bb240fe269860119847fb02f1c6e",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 105,
+      "official_position": 1991,
+      "category": "Complex reasoning/Route planning",
+      "index": 11,
+      "path": "HRSCD/2006/35-2006-0345-6830-LA93.tif",
+      "identity_sha256": "ec99c2ff7ed679d85a2b60a35937b52da9a617f9f0cc1e834b274069fc54bf83",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 106,
+      "official_position": 1993,
+      "category": "Complex reasoning/Route planning",
+      "index": 13,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3861.png",
+      "identity_sha256": "484bd1fe04bdc306fb6649dbf24526f0c0a9e892171b0dffb76eb6cac7047dc0",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 107,
+      "official_position": 1995,
+      "category": "Complex reasoning/Route planning",
+      "index": 15,
+      "path": "MiniFrance/44-2013-0355-6750-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "03356d34af19623dec54ce5ec598ce674c27effe5aa063942b49e520e57b1f8f",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 108,
+      "official_position": 1997,
+      "category": "Complex reasoning/Route planning",
+      "index": 17,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6874.png",
+      "identity_sha256": "e029673c1648fcd2620d06ee9a819e3b294f3e8e6fbdfff74cc5573a242ca7f3",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 109,
+      "official_position": 1999,
+      "category": "Complex reasoning/Route planning",
+      "index": 19,
+      "path": "HRSCD/2006/35-2006-0335-6805-LA93.tif",
+      "identity_sha256": "e22e65c64dd305656e0d2c0d702e1f6b6d29b933dd8241ad8fddac9af77a8443",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 110,
+      "official_position": 2001,
+      "category": "Complex reasoning/Route planning",
+      "index": 21,
+      "path": "Toronto/03945_Toronto.png",
+      "identity_sha256": "36e1d300410462ee42d62595186eea9bda7f62464f6e2b5610f66e66da5899e4",
+      "candidate_offset": 10
+    },
+    {
+      "selection_position": 111,
+      "official_position": 2003,
+      "category": "Complex reasoning/Route planning",
+      "index": 23,
+      "path": "Potsdam/top_potsdam_6_11_RGB_Potsdam.png",
+      "identity_sha256": "077bb91827bb4c7ec9500c3fac7cb2a643ac539038587785ba3670023c79e82f",
+      "candidate_offset": 11
+    },
+    {
+      "selection_position": 112,
+      "official_position": 2005,
+      "category": "Complex reasoning/Route planning",
+      "index": 25,
+      "path": "HRSCD/2006/35-2006-0340-6750-LA93.tif",
+      "identity_sha256": "47054361874680bb1bea85417c8e4922645e5d5b4d0893b8ee89d561140491a1",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 113,
+      "official_position": 2007,
+      "category": "Complex reasoning/Route planning",
+      "index": 27,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3485.png",
+      "identity_sha256": "fa901e45f7c474d0df8912707d878727665efaa0af3a79df9f5ca489c14db0ea",
+      "candidate_offset": 13
+    },
+    {
+      "selection_position": 114,
+      "official_position": 2009,
+      "category": "Complex reasoning/Route planning",
+      "index": 29,
+      "path": "MiniFrance/29-2012-0185-6795-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "1e3afb7523274634b7bf87bba5243989480e69051eac0897fa7d8b2168edfc26",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 115,
+      "official_position": 2011,
+      "category": "Complex reasoning/Route planning",
+      "index": 31,
+      "path": "HRSCD/2006/35-2006-0355-6785-LA93.tif",
+      "identity_sha256": "b3bd1ac356206a54eddd7e07f3b7fd962330f60d107d486727bdd08e1d2b63fb",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 116,
+      "official_position": 2013,
+      "category": "Complex reasoning/Route planning",
+      "index": 33,
+      "path": "ITCVD/00134.jpg",
+      "identity_sha256": "531ac47c10dab97276ad8b5a246345ba8e20b0786cb0044bf2ba3829d35f1a49",
+      "candidate_offset": 16
+    },
+    {
+      "selection_position": 117,
+      "official_position": 2015,
+      "category": "Complex reasoning/Route planning",
+      "index": 35,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11167.png",
+      "identity_sha256": "2729af0bf7a73f66657c2b391cd07aa65e0976a400495328bd8d54e1e882a60a",
+      "candidate_offset": 17
+    },
+    {
+      "selection_position": 118,
+      "official_position": 2017,
+      "category": "Complex reasoning/Route planning",
+      "index": 37,
+      "path": "MiniFrance/29-2012-0180-6825-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "1a45b4b925d7410c3b5727dd73609c593d18c20ca8558913849832af0b16c41a",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 119,
+      "official_position": 2019,
+      "category": "Complex reasoning/Route planning",
+      "index": 39,
+      "path": "MiniFrance/44-2013-0350-6650-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "0e83aa0cb755f1cfdf2f196623c07ca699b13003fc437409773fc0f1e1d00972",
+      "candidate_offset": 19
+    },
+    {
+      "selection_position": 120,
+      "official_position": 2021,
+      "category": "Complex reasoning/Route planning",
+      "index": 41,
+      "path": "HRSCD/2012/35-2012-0350-6820-LA93-0M50-E080.tif",
+      "identity_sha256": "96a6bed2cb1a4bc569bec00a384042478a86a68c03c1191d387789024598d534",
+      "candidate_offset": 20
+    },
+    {
+      "selection_position": 121,
+      "official_position": 2023,
+      "category": "Complex reasoning/Route planning",
+      "index": 43,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11093.png",
+      "identity_sha256": "bc994b7323a7c0f695527bd2df4f18fdbbb08d9a1649369c003eea6ac711814a",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 122,
+      "official_position": 2025,
+      "category": "Complex reasoning/Route planning",
+      "index": 45,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7322.png",
+      "identity_sha256": "237d18642c35da4f6cb2974a8d26882b489ced7a546d6412b5ada9e3d46b1769",
+      "candidate_offset": 22
+    },
+    {
+      "selection_position": 123,
+      "official_position": 2027,
+      "category": "Complex reasoning/Route planning",
+      "index": 47,
+      "path": "ITCVD/00068.jpg",
+      "identity_sha256": "a0335b302afdf801e57325fbd09867e98378b795cc81d0113edc0ccf7a85e38d",
+      "candidate_offset": 23
+    },
+    {
+      "selection_position": 124,
+      "official_position": 2029,
+      "category": "Complex reasoning/Route planning",
+      "index": 49,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3867.png",
+      "identity_sha256": "c16b0555920abd56b967bc35113d4404a08d9f2eba62dd1508cab21de7161712",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 125,
+      "official_position": 2031,
+      "category": "Complex reasoning/Route planning",
+      "index": 51,
+      "path": "MiniFrance/56-2013-0285-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "25691c7e78064f42038415cd763c01e3b74492bed6b2721c299af8cc8087bf1b",
+      "candidate_offset": 25
+    },
+    {
+      "selection_position": 126,
+      "official_position": 2033,
+      "category": "Complex reasoning/Route planning",
+      "index": 53,
+      "path": "HRSCD/2012/35-2012-0365-6765-LA93-0M50-E080.tif",
+      "identity_sha256": "75c0b4dad6957fc3e5ca2c681cd7cbc7c06ef5e2fdc30ea579dd5837a09f5bf6",
+      "candidate_offset": 26
+    },
+    {
+      "selection_position": 127,
+      "official_position": 2035,
+      "category": "Complex reasoning/Route planning",
+      "index": 55,
+      "path": "HRSCD/2006/35-2006-0330-6785-LA93.tif",
+      "identity_sha256": "090b757c09f2265e325ff21f4c28b4e097253cb74189cd22a9984eb1ca735be0",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 128,
+      "official_position": 2037,
+      "category": "Complex reasoning/Route planning",
+      "index": 57,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9964.png",
+      "identity_sha256": "eacc29c9670d44f4bc5a6a6611b5cb4961dc3445e4c7ea5cebb28accc9df5f76",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 129,
+      "official_position": 2039,
+      "category": "Complex reasoning/Route planning",
+      "index": 59,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P7074.png",
+      "identity_sha256": "49ea13c9128273262d8dd87ca39b7d9c3ec902bf3704ad2c9fa6188520fcc67d",
+      "candidate_offset": 29
+    },
+    {
+      "selection_position": 130,
+      "official_position": 2041,
+      "category": "Complex reasoning/Route planning",
+      "index": 61,
+      "path": "ITCVD/00225.jpg",
+      "identity_sha256": "674a1d90d426f2760da316c3c54d0e3713360fc0e41ac04203329aec13837aa0",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 131,
+      "official_position": 2043,
+      "category": "Complex reasoning/Route planning",
+      "index": 63,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6769.png",
+      "identity_sha256": "9c24e68d863378d9d5f6a2402451a2315d99493f332446cc2c0664b40d3a49ae",
+      "candidate_offset": 31
+    },
+    {
+      "selection_position": 132,
+      "official_position": 2045,
+      "category": "Complex reasoning/Route planning",
+      "index": 65,
+      "path": "HRSCD/2006/35-2006-0340-6765-LA93.tif",
+      "identity_sha256": "ad39b0f6279aca093b42283ae9554092d83035916a75b9d7115d4fbf05200035",
+      "candidate_offset": 32
+    },
+    {
+      "selection_position": 133,
+      "official_position": 2047,
+      "category": "Complex reasoning/Route planning",
+      "index": 67,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8564.png",
+      "identity_sha256": "9e8b11394d81eb08b64d11f19bdcf02ba93653038c1d35c266d87306b3b93cb5",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 134,
+      "official_position": 2049,
+      "category": "Complex reasoning/Route planning",
+      "index": 69,
+      "path": "Potsdam/top_potsdam_5_10_RGB_Potsdam.png",
+      "identity_sha256": "6d671269757a29d40f62950319e0bf45c1e3dc3233c94d4d56753f5741c24566",
+      "candidate_offset": 34
+    },
+    {
+      "selection_position": 135,
+      "official_position": 2051,
+      "category": "Complex reasoning/Route planning",
+      "index": 71,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6915.png",
+      "identity_sha256": "b39bae0b4a7fb20f037b1018caa9e96452bf65381c70ce428ff506bdcb3ab8b3",
+      "candidate_offset": 35
+    },
+    {
+      "selection_position": 136,
+      "official_position": 2053,
+      "category": "Complex reasoning/Route planning",
+      "index": 73,
+      "path": "MiniFrance/44-2013-0340-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "074beaf5f16420d0ad4546a7cdeb58b52dfeae55e936c93c5e21ca863b871a54",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 137,
+      "official_position": 2055,
+      "category": "Complex reasoning/Route planning",
+      "index": 75,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6317.png",
+      "identity_sha256": "1b4790d511962b498a491358770b40967e89b7e4957f619de8994b1df7785def",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 138,
+      "official_position": 2057,
+      "category": "Complex reasoning/Route planning",
+      "index": 77,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3943.png",
+      "identity_sha256": "d42b94951cdfe52bd666bd68801986d692824a0d714aa1f3961037087cd83dd4",
+      "candidate_offset": 38
+    },
+    {
+      "selection_position": 139,
+      "official_position": 2059,
+      "category": "Complex reasoning/Route planning",
+      "index": 79,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3934.png",
+      "identity_sha256": "aa18ad6b05929cf91420d81fafecd0370136c0cbc9599008a080b9f7e781a844",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 140,
+      "official_position": 2061,
+      "category": "Complex reasoning/Route planning",
+      "index": 81,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P4155.png",
+      "identity_sha256": "de94d0ab72012879eb9e87dc1f27a8ade5e3439bdc338c6fded3a8af56106028",
+      "candidate_offset": 40
+    },
+    {
+      "selection_position": 141,
+      "official_position": 2063,
+      "category": "Complex reasoning/Route planning",
+      "index": 83,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3202.png",
+      "identity_sha256": "4df7211f7f9cad499dbd5ec83712def2c960159aafd2715d0893796c0c796f2a",
+      "candidate_offset": 41
+    },
+    {
+      "selection_position": 142,
+      "official_position": 2065,
+      "category": "Complex reasoning/Route planning",
+      "index": 85,
+      "path": "Potsdam/top_potsdam_3_13_RGB_Potsdam.png",
+      "identity_sha256": "ee420e9c6009e43accfb62d65b2dfc89d2d806edd8d0251e0b9863a918ffc325",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 143,
+      "official_position": 2067,
+      "category": "Complex reasoning/Route planning",
+      "index": 87,
+      "path": "MiniFrance/44-2013-0350-6690-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "ee5c6c3f2598a822f57ad48ac8b32be4180469eaa17bf9be4241344d6b62572b",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 144,
+      "official_position": 2069,
+      "category": "Complex reasoning/Route planning",
+      "index": 89,
+      "path": "HRSCD/2006/35-2006-0355-6780-LA93.tif",
+      "identity_sha256": "1b4a969fd4565c0f66254ec6a3786e110ee304c80159c54c82150344c3f75ed3",
+      "candidate_offset": 44
+    },
+    {
+      "selection_position": 145,
+      "official_position": 2071,
+      "category": "Complex reasoning/Route planning",
+      "index": 91,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11138.png",
+      "identity_sha256": "3c21399ce947239b6584f1888a03ad1f119af17946c8cbefbb8eac53bd630eab",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 146,
+      "official_position": 2073,
+      "category": "Complex reasoning/Route planning",
+      "index": 93,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4717.png",
+      "identity_sha256": "31ba583dddf109c40701b2dafa0595ea9a67acbb7aaac5a95414cb2a8c9dad68",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 147,
+      "official_position": 2075,
+      "category": "Complex reasoning/Route planning",
+      "index": 95,
+      "path": "MiniFrance/44-2013-0300-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "637336d4b7e3cddf8b94abd6d4c5e3d1c8952a3257ed845df1090c9d4ff5fbcf",
+      "candidate_offset": 47
+    },
+    {
+      "selection_position": 148,
+      "official_position": 2077,
+      "category": "Complex reasoning/Route planning",
+      "index": 97,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6501.png",
+      "identity_sha256": "ce4b98eae19126a1908f72328377314071e82b3ddfca948cfa282a9a24fda459",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 149,
+      "official_position": 2079,
+      "category": "Complex reasoning/Route planning",
+      "index": 99,
+      "path": "MiniFrance/44-2013-0320-6730-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "4c4e67848f8d8bf4a22a54cbe75f276c8b2e4dc0355048b7df42ddae1b124c61",
+      "candidate_offset": 49
+    },
+    {
+      "selection_position": 150,
+      "official_position": 1923,
+      "category": "Counting/Counting with changing detection",
+      "index": 3,
+      "path": "HRSCD-4/35-2006-0330-6795-LA93-changing1.png:HRSCD-4/35-2012-0330-6795-LA93-0M50-E080-changing2.png",
+      "identity_sha256": "3a3a6c1748d7962aee48bc05ab98b99a2572cf5c2710f0c2a4581b5f202f51f9",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 151,
+      "official_position": 1930,
+      "category": "Counting/Counting with changing detection",
+      "index": 10,
+      "path": "HRSCD-5/35-2006-0335-6775-LA93-changing3.png:HRSCD-5/35-2012-0335-6775-LA93-0M50-E080-changing4.png",
+      "identity_sha256": "baee4418898d14e06d38a77c3dedf254d64396081e4c0496e7f244d3f6a41fca",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 152,
+      "official_position": 1936,
+      "category": "Counting/Counting with changing detection",
+      "index": 16,
+      "path": "HRSCD-5/35-2006-0330-6785-LA93-changing3.png:HRSCD-5/35-2012-0330-6785-LA93-0M50-E080-changing4.png",
+      "identity_sha256": "06aa85079ac8d99f119fc87b97cc1f91251564b7d8aab45db59b32069f8dede8",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 153,
+      "official_position": 1943,
+      "category": "Counting/Counting with changing detection",
+      "index": 23,
+      "path": "HRSCD-4/35-2006-0365-6775-LA93-changing1.tif:HRSCD-4/35-2012-0365-6775-LA93-0M50-E080-changing2.tif",
+      "identity_sha256": "e54fe3d401f5f3d77acd68e855fb909a60331de0462d0d276ea5c277c1a4def5",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 154,
+      "official_position": 1949,
+      "category": "Counting/Counting with changing detection",
+      "index": 29,
+      "path": "HRSCD-4/35-2006-0340-6780-LA93-changing1.png:HRSCD-4/35-2012-0340-6780-LA93-0M50-E080-changing2.png",
+      "identity_sha256": "de66ef9c5e03f3e73ee3dde1012848bf66b5e1ded2b824805564fd77668a0cd6",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 155,
+      "official_position": 1955,
+      "category": "Counting/Counting with changing detection",
+      "index": 35,
+      "path": "HRSCD-4/35-2006-0365-6800-LA93-changing1.tif:HRSCD-4/35-2012-0365-6800-LA93-0M50-E080-changing2.tif",
+      "identity_sha256": "aa8029b392550520a1db751142bbf96ae14d0b7c1a419deb0033b6f1f76fd715",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 156,
+      "official_position": 1962,
+      "category": "Counting/Counting with changing detection",
+      "index": 42,
+      "path": "HRSCD-5/35-2006-0360-6765-LA93-changing1.tif:HRSCD-5/35-2012-0360-6765-LA93-0M50-E080-changing2.tif",
+      "identity_sha256": "7ccc2b4fd8213f712296b794725d1abab4f58a55341d3f66c91afef7323047a2",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 157,
+      "official_position": 1968,
+      "category": "Counting/Counting with changing detection",
+      "index": 48,
+      "path": "HRSCD-4/35-2006-0365-6825-LA93-changing1.tif:HRSCD-4/35-2012-0365-6825-LA93-0M50-E080-changing2.tif",
+      "identity_sha256": "b073eaa5834694dba491ffa6630404c5474ea393e8f931c90428c85d6e18dcec",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 158,
+      "official_position": 1975,
+      "category": "Counting/Counting with changing detection",
+      "index": 55,
+      "path": "HRSCD-5/35-2006-0370-6795-LA93-changing1.tif:HRSCD-5/35-2012-0370-6795-LA93-0M50-E080-changing2.tif",
+      "identity_sha256": "6482c7cb2b4ea6f9d40725d3c5f03b721426f62b7f095fba5bf53318999d60a5",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 159,
+      "official_position": 1979,
+      "category": "Counting/Counting with changing detection",
+      "index": 59,
+      "path": "HRSCD-5/35-2006-0335-6810-LA93-changing3.png:HRSCD-5/35-2012-0335-6810-LA93-0M50-E080-changing4.png",
+      "identity_sha256": "49eb21dec55bd0580088a7c0035f3411ba06edefdc13baba43e72ee3b3d525c9",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 160,
+      "official_position": 761,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 1,
+      "path": "MiniFrance/44-2013-0370-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "8e15e02b2f76c75fac219f1cacd11de0420af626c187e41839648f8c1abf9693",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 161,
+      "official_position": 763,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 3,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6958.png",
+      "identity_sha256": "2ecd844c0e3dbc7d498d5214574a50b6624deed001ec3eb44f07d87aecfaa461",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 162,
+      "official_position": 765,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 5,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11093.png",
+      "identity_sha256": "2cdacd653524a72869d3acfbdc98cfc1c9f4289e6460bfdbd3116a65c57ebe48",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 163,
+      "official_position": 767,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 7,
+      "path": "HRSCD/2012/35-2012-0345-6830-LA93-0M50-E080.tif",
+      "identity_sha256": "76e55c759ef98d7fc45f3dc02498e550ef6e6121780b9a80b4beb0651ef4d893",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 164,
+      "official_position": 769,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 9,
+      "path": "HRSCD/2012/35-2012-0345-6810-LA93-0M50-E080.tif",
+      "identity_sha256": "6a0825719ee93437fb28c1cb8c3885d143b2538d855f4f51d5b61fc7e7c26d1f",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 165,
+      "official_position": 771,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 11,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P4882.png",
+      "identity_sha256": "f385cfeffca5148f9727d533017d2d19145a57dc50390f5d51b957a236de88ab",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 166,
+      "official_position": 773,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 13,
+      "path": "HRSCD/2012/35-2012-0330-6815-LA93-0M50-E080.tif",
+      "identity_sha256": "9e14bfc5d8a81cdad702846ffa31f8136241726e2c44993a181b380a4b752f0a",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 167,
+      "official_position": 775,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 15,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3644.png",
+      "identity_sha256": "5863e8dbe82653af2238c8ab434b1a4b1baf1bec5564dd122c2e44f775aa885a",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 168,
+      "official_position": 777,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 17,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P9542.png",
+      "identity_sha256": "5155cb79aee51d34c63e43e705a376f63e6e2a09953f4e6fdcaef4b33bb72973",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 169,
+      "official_position": 779,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 19,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11128.png",
+      "identity_sha256": "459e69f0d478011c7db788a1fd6583bc6e23652e521d8181f5965abfc79462dd",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 170,
+      "official_position": 781,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 21,
+      "path": "HRSCD/2012/35-2012-0350-6795-LA93-0M50-E080.tif",
+      "identity_sha256": "e32adf6167ed3f0857accc16c3979e77f200b5a20b28c89d9c51f357191bc5f7",
+      "candidate_offset": 10
+    },
+    {
+      "selection_position": 171,
+      "official_position": 783,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 23,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9431.png",
+      "identity_sha256": "91241dd4127b36e84af10f4f8a3df60c1cce2bd88fbb8663fd38b08316cafd31",
+      "candidate_offset": 11
+    },
+    {
+      "selection_position": 172,
+      "official_position": 785,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 25,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3583.png",
+      "identity_sha256": "618f28decd6be600635cc390a2d651b82ec4382f71cef22d00a645251979e480",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 173,
+      "official_position": 787,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 27,
+      "path": "MiniFrance/44-2013-0365-6745-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "882fdb3579f859b1a1e88cdada89426f6d557218e9170eaf8086e87f41ec42d8",
+      "candidate_offset": 13
+    },
+    {
+      "selection_position": 174,
+      "official_position": 789,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 29,
+      "path": "HRSCD/2006/35-2006-0340-6770-LA93.tif",
+      "identity_sha256": "3135c698a0f45567b67087f450fb3907338399cb7b7e2ef4c65c5b331f35d727",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 175,
+      "official_position": 791,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 31,
+      "path": "HRSCD/2012/35-2012-0375-6795-LA93-0M50-E080.tif",
+      "identity_sha256": "1495942c1cbddaca07cbb3b10117299f791fd3edbb6c60a049e9f267d5ede6ae",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 176,
+      "official_position": 793,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 33,
+      "path": "MiniFrance/44-2013-0345-6685-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3f4012ce999619cf8d652eb686d4744d0c9a71d748830b119b88d7b5feb4f151",
+      "candidate_offset": 16
+    },
+    {
+      "selection_position": 177,
+      "official_position": 795,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 35,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7713.png",
+      "identity_sha256": "5a1b418313e441ee08d9611cdd90e6b9838b9c8ec20c74dc63e2a737bebc0a64",
+      "candidate_offset": 17
+    },
+    {
+      "selection_position": 178,
+      "official_position": 797,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 37,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7438.png",
+      "identity_sha256": "cb31f649b10ad09b15d2a9a3f26c14fb8e7f5aed6b11621b2f7cd2bffe936d8f",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 179,
+      "official_position": 799,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 39,
+      "path": "MiniFrance/22-2012-0210-6855-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "336ed40bec27f67da432624ccf69cfd276e1d6fcdcf69383f96fc8989de42e25",
+      "candidate_offset": 19
+    },
+    {
+      "selection_position": 180,
+      "official_position": 801,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 41,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6858.png",
+      "identity_sha256": "dfdbac396e845d098c534e8ba9851a325c06498a77abe06ec59dd0e86937eb86",
+      "candidate_offset": 20
+    },
+    {
+      "selection_position": 181,
+      "official_position": 803,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 43,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6976.png",
+      "identity_sha256": "0f7820073f778291efe3373db6ca207320f90e9f5988ac5a102b52d4c32a5b3a",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 182,
+      "official_position": 805,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 45,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7322.png",
+      "identity_sha256": "26366d63ff7aab9c086ef957c03e82db8ef2c45b4e00dceb2d70938dcda8a070",
+      "candidate_offset": 22
+    },
+    {
+      "selection_position": 183,
+      "official_position": 807,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 47,
+      "path": "MiniFrance/22-2012-0210-6815-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "622142061c18e20dc841c196e8e21341c6768663061b0191ba2249a659abd849",
+      "candidate_offset": 23
+    },
+    {
+      "selection_position": 184,
+      "official_position": 809,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 49,
+      "path": "MiniFrance/44-2013-0305-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "68d0b19b87e849f332ccf80a41771a71bf20e97206650889802314ac79f607c0",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 185,
+      "official_position": 811,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 51,
+      "path": "HRSCD/2006/35-2006-0340-6795-LA93.tif",
+      "identity_sha256": "6f2ea627f62d091e9fd4fbf34f566d2a7c071da66c224c6178861a45d76aaa7c",
+      "candidate_offset": 25
+    },
+    {
+      "selection_position": 186,
+      "official_position": 813,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 53,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6687.png",
+      "identity_sha256": "9a3216ad29af2873d4f1d7fd804803b3ba409682ca441e1777d8e5bbf4e0f19d",
+      "candidate_offset": 26
+    },
+    {
+      "selection_position": 187,
+      "official_position": 815,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 55,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4568.png",
+      "identity_sha256": "88ecb9a5053d298412dd926fa371ec98495a03a7ae1b4d916c74c47262e40a74",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 188,
+      "official_position": 817,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 57,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11156.png",
+      "identity_sha256": "9f095d67c1efd8836f61c21da8007c12126bd6534013c0b30ed36128a694540b",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 189,
+      "official_position": 819,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 59,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4186.png",
+      "identity_sha256": "46441cba38d739f25711823cc7fa76bf34ecf679a3b68191abde2058e94b94f5",
+      "candidate_offset": 29
+    },
+    {
+      "selection_position": 190,
+      "official_position": 821,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 61,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3613.png",
+      "identity_sha256": "6ca2827687dcfe04f60bed1e4821a9a0fde8631c82ef3d3dc91f675a67d2e646",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 191,
+      "official_position": 823,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 63,
+      "path": "HRSCD/2006/35-2006-0350-6790-LA93.tif",
+      "identity_sha256": "8d78222378ce6e95a1daee6167c59f143382dba51b2ac78695356dc8f96d734c",
+      "candidate_offset": 31
+    },
+    {
+      "selection_position": 192,
+      "official_position": 825,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 65,
+      "path": "MiniFrance/44-2013-0375-6690-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3fd26d3ad3e7f036b9c85d4f53b19eedd43723c588b1a216005e3d795c4bda27",
+      "candidate_offset": 32
+    },
+    {
+      "selection_position": 193,
+      "official_position": 827,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 67,
+      "path": "MiniFrance/29-2012-0160-6850-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "6e4ae1f8eb3b108a1ebf4dcaee092e3644b5fc553f422bae52a8ff214b3664ed",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 194,
+      "official_position": 829,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 69,
+      "path": "MiniFrance/44-2013-0350-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "e048cf9200f4e3bcef5bc8bd06644bb6ac2fd9f6d0a8c2bffde2a33e37ab2430",
+      "candidate_offset": 34
+    },
+    {
+      "selection_position": 195,
+      "official_position": 831,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 71,
+      "path": "HRSCD/2006/35-2006-0375-6810-LA93.tif",
+      "identity_sha256": "0e3a33208b4727e738a333469c56d7b0ccddd7be0468afa8c566d93364cb70c2",
+      "candidate_offset": 35
+    },
+    {
+      "selection_position": 196,
+      "official_position": 833,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 73,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10672.png",
+      "identity_sha256": "d8da58cf34a62cabebe184372ec7d61664588925c3371a76ef1ff16203ca6f0e",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 197,
+      "official_position": 835,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 75,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P8230.png",
+      "identity_sha256": "a38d66f1584bdd5b1aec1587769f8704a9903ac4124e96ff7850782accb17703",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 198,
+      "official_position": 837,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 77,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11125.png",
+      "identity_sha256": "942b025f9839a937d1b8a4a028f72f88b2f3169d2914a2b8395c97381788fbb1",
+      "candidate_offset": 38
+    },
+    {
+      "selection_position": 199,
+      "official_position": 839,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 79,
+      "path": "HRSCD/2012/35-2012-0340-6780-LA93-0M50-E080.tif",
+      "identity_sha256": "adef03bd635ba3d232a98447df5691579e8606f1f5e1673c5dbf912cf1004b05",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 200,
+      "official_position": 841,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 81,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5534.png",
+      "identity_sha256": "cde18fc33e9529561f36a6d83b519f7573f7da9928091701b0710b590f254045",
+      "candidate_offset": 40
+    },
+    {
+      "selection_position": 201,
+      "official_position": 843,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 83,
+      "path": "HRSCD/2012/35-2012-0380-6805-LA93-0M50-E080.tif",
+      "identity_sha256": "4795c22192fe04bc527aef6df6f2f72d322748678be5ebd6ebeaf005dc807ee8",
+      "candidate_offset": 41
+    },
+    {
+      "selection_position": 202,
+      "official_position": 845,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 85,
+      "path": "MiniFrance/44-2013-0380-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "f07fc8fa34ea5e938fb411ed6190e4966bf4bc6fd40b09cdf0b73806bb8a20ad",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 203,
+      "official_position": 847,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 87,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10040.png",
+      "identity_sha256": "b0bf6780793ec5a8d0df6c2cbcf5d8860c1565794e142470d6d5af5ae673d2e8",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 204,
+      "official_position": 849,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 89,
+      "path": "HRSCD/2006/35-2006-0375-6790-LA93.tif",
+      "identity_sha256": "64a4344eac713ed3a5f6ca86a81dbb8b183d2fa3d5e623a15d20cb50d098c1da",
+      "candidate_offset": 44
+    },
+    {
+      "selection_position": 205,
+      "official_position": 851,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 91,
+      "path": "HRSCD/2012/35-2012-0355-6775-LA93-0M50-E080.tif",
+      "identity_sha256": "ab422785eab13960facfb4b43577135efbbcb5542484c1ddfad1db0a00daad87",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 206,
+      "official_position": 853,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 93,
+      "path": "MiniFrance/44-2013-0315-6695-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "bad4a56a7c98575fa80a948fb37f875445d6c500d1caade337e24e7ccb8b11ed",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 207,
+      "official_position": 855,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 95,
+      "path": "MiniFrance/44-2013-0310-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "6afc533d29334ef44b7c51ed81db02cc9ad64a032ed93c910b417c80d042636f",
+      "candidate_offset": 47
+    },
+    {
+      "selection_position": 208,
+      "official_position": 857,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 97,
+      "path": "MiniFrance/44-2013-0310-6710-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "5ea3349c510a5e1e7e3239b341f08a926e7a2b0795d245b27fbb1e3f7e72c4ee",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 209,
+      "official_position": 859,
+      "category": "Counting/Counting with complex reasoning",
+      "index": 99,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10117.png",
+      "identity_sha256": "4320b4185c625e1896cb026a4d48d976c1e03c2f8b995b39280cb4f090e74e01",
+      "candidate_offset": 49
+    },
+    {
+      "selection_position": 210,
+      "official_position": 703,
+      "category": "Counting/Overall counting",
+      "index": 3,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5146.png",
+      "identity_sha256": "51507aa7189a06389bdaeff463d8b6d3d110f649abdf2cf781c3253693ffa5ff",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 211,
+      "official_position": 710,
+      "category": "Counting/Overall counting",
+      "index": 10,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6769.png",
+      "identity_sha256": "6846615dc78d505a4b118ab46c749b943800eacb93797d106fd354ef49cc1a66",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 212,
+      "official_position": 716,
+      "category": "Counting/Overall counting",
+      "index": 16,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3934.png",
+      "identity_sha256": "00a8f27f3c4b1c63fb02a6e29098fbbcb72a355d48742bfd727dccee8957c4e4",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 213,
+      "official_position": 723,
+      "category": "Counting/Overall counting",
+      "index": 23,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7898.png",
+      "identity_sha256": "2d04730aaa00db516afed09d102e7e22e5c006915359ce57b6cee56e253d3b19",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 214,
+      "official_position": 729,
+      "category": "Counting/Overall counting",
+      "index": 29,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8934.png",
+      "identity_sha256": "fb379ca6347adc0633ebacfa1a8d584e8fbadec3098e7ba3513068e31b1f4e9d",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 215,
+      "official_position": 735,
+      "category": "Counting/Overall counting",
+      "index": 35,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3644.png",
+      "identity_sha256": "bf78933f666384fbddb0a2dbfe0768b2eba708a1f5cc7f13066cd874d4f4a317",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 216,
+      "official_position": 742,
+      "category": "Counting/Overall counting",
+      "index": 42,
+      "path": "ITCVD/00002.jpg",
+      "identity_sha256": "488aa4243282dbd55c7e9872d8fdfcc94d85462ba37f59ff37b27a8853af0766",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 217,
+      "official_position": 748,
+      "category": "Counting/Overall counting",
+      "index": 48,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11130.png",
+      "identity_sha256": "d41be20bb3704ca136a1c2140ec7236d69a16ee2bb67d859a20ec106a6916742",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 218,
+      "official_position": 755,
+      "category": "Counting/Overall counting",
+      "index": 55,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10778.png",
+      "identity_sha256": "087276847f659aa1b2e2ca9f16b9ccdd1a1e862fa74b2cb55865e349b1c75dac",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 219,
+      "official_position": 759,
+      "category": "Counting/Overall counting",
+      "index": 59,
+      "path": "Potsdam/top_potsdam_2_10_RGB_Potsdam.png",
+      "identity_sha256": "8648df0be7b49d018fb6fc3fcc9dea89a5bba10b764bf7c4ffc37d2491fbd5fc",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 220,
+      "official_position": 2981,
+      "category": "Counting/Regional counting",
+      "index": 1,
+      "path": "MiniFrance-3/62-2012-0695-7005-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b96a530015854f9bc08bfadb44b13d7a41cede4479ac5dca88ccb07d42fdba07",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 221,
+      "official_position": 2983,
+      "category": "Counting/Regional counting",
+      "index": 3,
+      "path": "MiniFrance-3/44-2013-0385-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3ca356102202488a2a07de155679ec0e5e8a241c3f3ec4bdeebaae2fcb292a43",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 222,
+      "official_position": 2985,
+      "category": "Counting/Regional counting",
+      "index": 5,
+      "path": "HRSCD-2012-3/35-2012-0375-6795-LA93-0M50-E080.tif",
+      "identity_sha256": "d24f0a69e92ffc6ee1e057fd43809c5422677aaab04801b97f5863866037301b",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 223,
+      "official_position": 2987,
+      "category": "Counting/Regional counting",
+      "index": 7,
+      "path": "DOTA_v2_4912_7360-3/dota_v2_dota_v2_dota_v2_P8003-1.png",
+      "identity_sha256": "23334772d2aa6822541b5dec0f167114fb0475e0a927021528b6ecfce42bd6d3",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 224,
+      "official_position": 2989,
+      "category": "Counting/Regional counting",
+      "index": 9,
+      "path": "HRSCD-2006-3/35-2006-0360-6755-LA93.tif",
+      "identity_sha256": "c899dca3da6c78306f7f589538b9057a5598e9977e91397d32a41bcb14d9e4f6",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 225,
+      "official_position": 2991,
+      "category": "Counting/Regional counting",
+      "index": 11,
+      "path": "MiniFrance-3/44-2013-0380-6735-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "eda1587408c0c894043f4c8ab0ca9212553d48b4329465807fb71aa050255258",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 226,
+      "official_position": 2993,
+      "category": "Counting/Regional counting",
+      "index": 13,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P6718-3.png",
+      "identity_sha256": "c69923a2a9ee34d4be05863f92db4c820e56a0143c8eed0e3b004ac351afc6e6",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 227,
+      "official_position": 2995,
+      "category": "Counting/Regional counting",
+      "index": 15,
+      "path": "DOTA_v2_4912_7360-3/dota_v2_dota_v2_dota_v2_P4623-1.png",
+      "identity_sha256": "d0b57d6286da0b5e43b0d629cad4d661aee9aa302dff4149d7e9de7624ebcd99",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 228,
+      "official_position": 2997,
+      "category": "Counting/Regional counting",
+      "index": 17,
+      "path": "MiniFrance-3/59-2012-0730-7025-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3893e8b13a28d8a7ce6db759663a3869d578808d078c5381eccd945dd01d0ed0",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 229,
+      "official_position": 2999,
+      "category": "Counting/Regional counting",
+      "index": 19,
+      "path": "DOTA_v2_4912_7360-3/dota_v2_dota_v2_dota_v2_P3188-1.png",
+      "identity_sha256": "76abd659e564e64a6668b2a5f542fe77b2d8ed8a96f505166110da2bc7889433",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 230,
+      "official_position": 3001,
+      "category": "Counting/Regional counting",
+      "index": 21,
+      "path": "HRSCD-2012-3/35-2012-0335-6760-LA93-0M50-E080-1.png",
+      "identity_sha256": "c32c3976c893175cfac1cdac7d7d2b372f9301df6079c98dd3053a562b1fd461",
+      "candidate_offset": 10
+    },
+    {
+      "selection_position": 231,
+      "official_position": 3003,
+      "category": "Counting/Regional counting",
+      "index": 23,
+      "path": "MiniFrance-3/56-2013-0315-6790-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3357f6c241a2e5665000e209f230569f1b93fb22accecd35f37bc542e1740616",
+      "candidate_offset": 11
+    },
+    {
+      "selection_position": 232,
+      "official_position": 3005,
+      "category": "Counting/Regional counting",
+      "index": 25,
+      "path": "DOTA_v2_4912_7360-3/dota_v2_dota_v2_dota_v2_P10040-1.png",
+      "identity_sha256": "053102928ccd816aaa5e3d5b90e6721ffeea35efc09bb05fc2424fcd5a2338ac",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 233,
+      "official_position": 3007,
+      "category": "Counting/Regional counting",
+      "index": 27,
+      "path": "MiniFrance-3/29-2012-0160-6825-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "20740f8f427861bea0d104ac5fa9fead2e084cc1691e09cb9eb069d5572789d2",
+      "candidate_offset": 13
+    },
+    {
+      "selection_position": 234,
+      "official_position": 3009,
+      "category": "Counting/Regional counting",
+      "index": 29,
+      "path": "MiniFrance-3/44-2013-0335-6685-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "e4d94507368b1ee6b7b11d199b0989e59b9992a3d6bc986eafcb7ef06242f2cf",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 235,
+      "official_position": 3011,
+      "category": "Counting/Regional counting",
+      "index": 31,
+      "path": "HRSCD-2006-3/35-2006-0360-6795-LA93.tif",
+      "identity_sha256": "b16e187ec8a9dac5cc65e014bb7027c821bddf6670d6112447f5f4ee9254cbea",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 236,
+      "official_position": 3013,
+      "category": "Counting/Regional counting",
+      "index": 33,
+      "path": "MiniFrance-3/22-2012-0210-6850-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "38c88becb0008d4e36870d1d8f757ddf38e06e79b3da05b3e8dd73af657c48fd",
+      "candidate_offset": 16
+    },
+    {
+      "selection_position": 237,
+      "official_position": 3015,
+      "category": "Counting/Regional counting",
+      "index": 35,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P11123-3.png",
+      "identity_sha256": "458e5ff249727ac0833a4dd0eee5fabeeb0f3083640ab6e98eeb0692d458f77b",
+      "candidate_offset": 17
+    },
+    {
+      "selection_position": 238,
+      "official_position": 3017,
+      "category": "Counting/Regional counting",
+      "index": 37,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P10949-3.png",
+      "identity_sha256": "b79bbc82dfc41e9d3c4b60fbfb492bbd619b58f52783fdb24c4de30a3adfc805",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 239,
+      "official_position": 3019,
+      "category": "Counting/Regional counting",
+      "index": 39,
+      "path": "ITCVD-3/00023-1.png",
+      "identity_sha256": "bbedf4cbfff8e4b2dabc723da5eda605569bbd65380ed1b9bb3cb17969c89ddb",
+      "candidate_offset": 19
+    },
+    {
+      "selection_position": 240,
+      "official_position": 3021,
+      "category": "Counting/Regional counting",
+      "index": 41,
+      "path": "HRSCD-2006-3/35-2006-0355-6800-LA93.tif",
+      "identity_sha256": "06db50edb34374bff63158b3850391ed06ea36e6f4ef226cde770158731c4857",
+      "candidate_offset": 20
+    },
+    {
+      "selection_position": 241,
+      "official_position": 3023,
+      "category": "Counting/Regional counting",
+      "index": 43,
+      "path": "MiniFrance-3/44-2013-0375-6745-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "2cfa64f049f99eb282c2243a1fc93dda878017ce3427b3859262447dc10ab103",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 242,
+      "official_position": 3025,
+      "category": "Counting/Regional counting",
+      "index": 45,
+      "path": "HRSCD-2006-3/35-2006-0360-6765-LA93.tif",
+      "identity_sha256": "7caa43a1c7c212a5beecc9a41ee214a83b930460a763bc39f7aea204c544388c",
+      "candidate_offset": 22
+    },
+    {
+      "selection_position": 243,
+      "official_position": 3027,
+      "category": "Counting/Regional counting",
+      "index": 47,
+      "path": "HRSCD-2012-3/35-2012-0350-6800-LA93-0M50-E080.tif",
+      "identity_sha256": "21a09fdb6c850596a5cb20ee1a712d108e87c9101cb1193e7dc151936f5c4df9",
+      "candidate_offset": 23
+    },
+    {
+      "selection_position": 244,
+      "official_position": 3029,
+      "category": "Counting/Regional counting",
+      "index": 49,
+      "path": "DOTA_v2_4912_7360-3/dota_v2_dota_v2_dota_v2_P5195-1.png",
+      "identity_sha256": "12018b71e8d7f0b5b5c375b5a11b8f601d3bccbbb5981bbc554affcf10460c43",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 245,
+      "official_position": 3031,
+      "category": "Counting/Regional counting",
+      "index": 51,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P3116-3.png",
+      "identity_sha256": "4a2d395a51622c6647f12b17fa86fd89107ca92b203c90b27e2aa5d5a60a0c63",
+      "candidate_offset": 25
+    },
+    {
+      "selection_position": 246,
+      "official_position": 3033,
+      "category": "Counting/Regional counting",
+      "index": 53,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P11128-3.png",
+      "identity_sha256": "f658a5027ff0bef5d314c37b989353a85f9668d08da386a7abb940a5c85e094d",
+      "candidate_offset": 26
+    },
+    {
+      "selection_position": 247,
+      "official_position": 3035,
+      "category": "Counting/Regional counting",
+      "index": 55,
+      "path": "HRSCD-2012-3/35-2012-0365-6810-LA93-0M50-E080.tif",
+      "identity_sha256": "196789da03e51ac2d854590040c688607042f12d2aca66cf43c2d7720dab6196",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 248,
+      "official_position": 3037,
+      "category": "Counting/Regional counting",
+      "index": 57,
+      "path": "MiniFrance-3/22-2012-0230-6860-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3db1cbc02d17c4d32a7436d0db325f94d6222403354337c7fff51d124d63c59e",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 249,
+      "official_position": 3039,
+      "category": "Counting/Regional counting",
+      "index": 59,
+      "path": "MiniFrance-3/44-2013-0395-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "5c30b2f105b4ac32d406ff66f04a711cc9710ed36b4e0b16cf7dce514a8b0d79",
+      "candidate_offset": 29
+    },
+    {
+      "selection_position": 250,
+      "official_position": 3041,
+      "category": "Counting/Regional counting",
+      "index": 61,
+      "path": "HRSCD-2006-3/35-2006-0340-6790-LA93-1.png",
+      "identity_sha256": "1d6495ca3d68a0e064a9fbf2169bc73175a2d71b58d87ac431c966bb39fc6d98",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 251,
+      "official_position": 3043,
+      "category": "Counting/Regional counting",
+      "index": 63,
+      "path": "HRSCD-2012-3/35-2012-0350-6785-LA93-0M50-E080-1.png",
+      "identity_sha256": "0d0f894a29c755235f93f154d1960cdd628e2369b46be0e2a272e8eb3496051f",
+      "candidate_offset": 31
+    },
+    {
+      "selection_position": 252,
+      "official_position": 3045,
+      "category": "Counting/Regional counting",
+      "index": 65,
+      "path": "HRSCD-2006-3/35-2006-0360-6815-LA93.tif",
+      "identity_sha256": "078e725f5963a84666c049c8eda1f518d801ee019ce87eb43077d06cb51aace6",
+      "candidate_offset": 32
+    },
+    {
+      "selection_position": 253,
+      "official_position": 3047,
+      "category": "Counting/Regional counting",
+      "index": 67,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P11103-3.png",
+      "identity_sha256": "d0b7ed6c32a1090b05e57c82b88432c1b8d146b5c4e337443e12f30c7f57eb3b",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 254,
+      "official_position": 3049,
+      "category": "Counting/Regional counting",
+      "index": 69,
+      "path": "MiniFrance-3/22-2012-0210-6840-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "cce9c475a86d15d860b66f6939c4a0a1a8ed53dea78bb59930452877ffcdcd85",
+      "candidate_offset": 34
+    },
+    {
+      "selection_position": 255,
+      "official_position": 3051,
+      "category": "Counting/Regional counting",
+      "index": 71,
+      "path": "HRSCD-2006-3/35-2006-0340-6810-LA93-1.png",
+      "identity_sha256": "9c01ced614aa5f5eef541632b99604fd58bb86a57894713705903fce340eeeb0",
+      "candidate_offset": 35
+    },
+    {
+      "selection_position": 256,
+      "official_position": 3053,
+      "category": "Counting/Regional counting",
+      "index": 73,
+      "path": "HRSCD-2006-3/35-2006-0365-6820-LA93.tif",
+      "identity_sha256": "c5fe495dee1c69343d9c3c6c61ce00b6f8a79a17a816719063241c4ffc66ffa4",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 257,
+      "official_position": 3055,
+      "category": "Counting/Regional counting",
+      "index": 75,
+      "path": "HRSCD-2012-3/35-2012-0340-6790-LA93-0M50-E080-1.png",
+      "identity_sha256": "06a79e3f13447ec4105c81c4e18279af2528a11fbe6ad215ea7cf1178cbe6f41",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 258,
+      "official_position": 3057,
+      "category": "Counting/Regional counting",
+      "index": 77,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P9132-3.png",
+      "identity_sha256": "6c00bda9cd7d47d67e3dcf917d975f1cdc8cf5a76bc00781e0d0ed06cdf848ab",
+      "candidate_offset": 38
+    },
+    {
+      "selection_position": 259,
+      "official_position": 3059,
+      "category": "Counting/Regional counting",
+      "index": 79,
+      "path": "MiniFrance-3/44-2013-0295-6710-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "db614c24198247ac44f2db12425c6913284a1cfcbd5e2ac68a761e8cf46ca574",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 260,
+      "official_position": 3061,
+      "category": "Counting/Regional counting",
+      "index": 81,
+      "path": "MiniFrance-3/59-2012-0725-7035-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "86cbd0c2d2a7e1251522a75623e877b8d34124952cd2887b5eb947a2af87e55a",
+      "candidate_offset": 40
+    },
+    {
+      "selection_position": 261,
+      "official_position": 3063,
+      "category": "Counting/Regional counting",
+      "index": 83,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P8103-3.png",
+      "identity_sha256": "fd6219741b5c1813bd6467aa03cedb5ca232d23081502090eeffad92898c6498",
+      "candidate_offset": 41
+    },
+    {
+      "selection_position": 262,
+      "official_position": 3065,
+      "category": "Counting/Regional counting",
+      "index": 85,
+      "path": "MiniFrance-3/62-2012-0680-7010-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "00f1afbf39ada33147a754e6c31200e55337e3479c2e06d4cb2dd063cae213f2",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 263,
+      "official_position": 3067,
+      "category": "Counting/Regional counting",
+      "index": 87,
+      "path": "MiniFrance-3/29-2012-0140-6830-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "c37a23e2daea087f3c2fa5eb910669206aa93a0cfe6d2be6798d9df03b127e00",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 264,
+      "official_position": 3069,
+      "category": "Counting/Regional counting",
+      "index": 89,
+      "path": "MiniFrance-3/44-2013-0335-6735-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "20c9baa50c7900f746748b3d58fdca46b3b0788eae9ff990aecb929e2a700d3d",
+      "candidate_offset": 44
+    },
+    {
+      "selection_position": 265,
+      "official_position": 3071,
+      "category": "Counting/Regional counting",
+      "index": 91,
+      "path": "MiniFrance-3/44-2013-0380-6750-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "68fda844a34d02b1bbf46b01cc4b286394d5a45712b52cf74d86ba4ed82039b3",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 266,
+      "official_position": 3073,
+      "category": "Counting/Regional counting",
+      "index": 93,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P2937-3.png",
+      "identity_sha256": "46239c76cb632c3baf26909774a782634e8fdf50b33a8cf16360fc5a46d44931",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 267,
+      "official_position": 3075,
+      "category": "Counting/Regional counting",
+      "index": 95,
+      "path": "DOTA_v2_4096_4096-3/dota_v2_dota_v2_dota_v2_P2957-3.png",
+      "identity_sha256": "83d04604f926d01f1c5e4e0c27445d70186c1383b19cbb110bed906d65584582",
+      "candidate_offset": 47
+    },
+    {
+      "selection_position": 268,
+      "official_position": 3077,
+      "category": "Counting/Regional counting",
+      "index": 97,
+      "path": "MiniFrance-3/44-2013-0370-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "83c039f8e2f5f04e91eb81e9c06c0824fc6b2594c8175b7f7fbf3340020cafda",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 269,
+      "official_position": 3079,
+      "category": "Counting/Regional counting",
+      "index": 99,
+      "path": "MiniFrance-3/62-2012-0600-7065-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "cdef77aacf9bf8f577c7add3f280cbc670d977dfa2ea423d77cf1a758c4840a2",
+      "candidate_offset": 49
+    },
+    {
+      "selection_position": 270,
+      "official_position": 2081,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 1,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11150.png",
+      "identity_sha256": "0783971e8ddc385b94ca9c473587cf08aadfd24e37ac3daa5db9ff6a8a6ffc96",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 271,
+      "official_position": 2083,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 3,
+      "path": "HRSCD/2006/35-2006-0340-6815-LA93.tif",
+      "identity_sha256": "532d5ed6d2016d360c5be6219ad79c71655f585a703cede55e68dbd8542f480a",
+      "candidate_offset": 1
+    },
+    {
+      "selection_position": 272,
+      "official_position": 2085,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 5,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3318.png",
+      "identity_sha256": "30a96aaf510d44f04780402ea9d64cf0aa8a595f571d2eb341db325f80dd7c7b",
+      "candidate_offset": 2
+    },
+    {
+      "selection_position": 273,
+      "official_position": 2087,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 7,
+      "path": "MiniFrance/44-2013-0350-6695-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "7181dbf5f34ab2aeef14c2c6492a6191de6b7660f0d9dffa4f6f452cbb79f200",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 274,
+      "official_position": 2089,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 9,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3013.png",
+      "identity_sha256": "6d61d81f37409de2df6d02725b3e5e51a5519305eb92a4f90e5d660492ec172a",
+      "candidate_offset": 4
+    },
+    {
+      "selection_position": 275,
+      "official_position": 2091,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 11,
+      "path": "MiniFrance/56-2013-0310-6790-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "4ae7241de5208a286aa843425400c223055718b8607f702d3b84cf13f52cadb2",
+      "candidate_offset": 5
+    },
+    {
+      "selection_position": 276,
+      "official_position": 2093,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 13,
+      "path": "HRSCD/2012/35-2012-0355-6760-LA93-0M50-E080.tif",
+      "identity_sha256": "e96bfc4e9966f7abfabf328edc479db15679d26dc4d55f5216afa90344491827",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 277,
+      "official_position": 2095,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 15,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6125.png",
+      "identity_sha256": "131b3b8e12affc95a5d34baf5a55ba606131f1c3c0998d4bd3a9dc7424bee88d",
+      "candidate_offset": 7
+    },
+    {
+      "selection_position": 278,
+      "official_position": 2097,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 17,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7770.png",
+      "identity_sha256": "0128de36f54228d669a912918a02bc78f2a0aaa268b02cb5fa2468f887fb253a",
+      "candidate_offset": 8
+    },
+    {
+      "selection_position": 279,
+      "official_position": 2099,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 19,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5800.png",
+      "identity_sha256": "0f0c16096bd4295131b6dd42141487512b73bde9df7095756cf44a7ca6b98d4c",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 280,
+      "official_position": 2101,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 21,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7826.png",
+      "identity_sha256": "0b6e77fcadc671d611808252286cbbb28a5abd202c96c3d4b039313bff78279c",
+      "candidate_offset": 10
+    },
+    {
+      "selection_position": 281,
+      "official_position": 2103,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 23,
+      "path": "MiniFrance/44-2013-0360-6675-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "73a87f8034f3a31c9df6e4272eb5f8937f5aa39b85197221512b429e706eb58e",
+      "candidate_offset": 11
+    },
+    {
+      "selection_position": 282,
+      "official_position": 2105,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 25,
+      "path": "HRSCD/2006/35-2006-0340-6760-LA93.tif",
+      "identity_sha256": "0ade5dcd8a8e46a5c86e7be1fbe9c769256c146cec69fc5ed12ff5ad4e651378",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 283,
+      "official_position": 2107,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 27,
+      "path": "MiniFrance/62-2012-0700-6995-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "293fe1d1866aedabdffc7913023469d5bcbdb457ece922f730e1023bd070fae0",
+      "candidate_offset": 13
+    },
+    {
+      "selection_position": 284,
+      "official_position": 2109,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 29,
+      "path": "MiniFrance/44-2013-0350-6670-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "5e08064314ad1ef702197da165a08c92cb2e611b4b6a316917205741f1dc1df9",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 285,
+      "official_position": 2111,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 31,
+      "path": "MiniFrance/44-2013-0320-6730-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "da7da039b0cac639fd71fef76bc71efc568d3c515962ac51a993f6c521873cb0",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 286,
+      "official_position": 2113,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 33,
+      "path": "MiniFrance/14-2012-0420-6875-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "468c0c4457a2afdbc3649c2c3c2968a6eb6bbd2821ad1f384edf87ee098a583e",
+      "candidate_offset": 16
+    },
+    {
+      "selection_position": 287,
+      "official_position": 2115,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 35,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3374.png",
+      "identity_sha256": "9293f870d4158e8509c3f7847a5e59f89b99fb70683ff2282460495450815c5c",
+      "candidate_offset": 17
+    },
+    {
+      "selection_position": 288,
+      "official_position": 2117,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 37,
+      "path": "HRSCD/2012/35-2012-0330-6810-LA93-0M50-E080.tif",
+      "identity_sha256": "c1133ee454920214b7ddde8d3e6f8e4dfde8d66e0bd2ee92cb9e7fef71ec9d24",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 289,
+      "official_position": 2119,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 39,
+      "path": "MiniFrance/44-2013-0385-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "5386bbcc9fdd887a67ed1999fbd8e7fad29b87f8755c4765f86811e3c55bc768",
+      "candidate_offset": 19
+    },
+    {
+      "selection_position": 290,
+      "official_position": 2121,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 41,
+      "path": "MiniFrance/44-2013-0340-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "0de8dfcb890f1f128e295596b68b3fcab42eb25e461aac88d6f30966fbc7833b",
+      "candidate_offset": 20
+    },
+    {
+      "selection_position": 291,
+      "official_position": 2123,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 43,
+      "path": "MiniFrance/44-2013-0315-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3e68009c376ba330744c4c61d2ec8e1ed0b3467f2d51fd0abf2bdb281c885b85",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 292,
+      "official_position": 2125,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 45,
+      "path": "MiniFrance/59-2012-0760-7025-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "9d6180aca1d53ad09c06d436769e2b61dd7068e03334542b9243638a36788c84",
+      "candidate_offset": 22
+    },
+    {
+      "selection_position": 293,
+      "official_position": 2127,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 47,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6397.png",
+      "identity_sha256": "298b8d532f03a5bb5277260c12cc0c8bf632a769dd01ac353b5af98038296da8",
+      "candidate_offset": 23
+    },
+    {
+      "selection_position": 294,
+      "official_position": 2129,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 49,
+      "path": "HRSCD/2012/35-2012-0360-6800-LA93-0M50-E080.tif",
+      "identity_sha256": "18cee6529f03b57f5479555775fe93aea81d94804e8516d2c419b076f42be1f9",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 295,
+      "official_position": 2131,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 51,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10854.png",
+      "identity_sha256": "20c8ceadb38e6937921e83037fd20656b16af03972fad173e65dd7e2a32501de",
+      "candidate_offset": 25
+    },
+    {
+      "selection_position": 296,
+      "official_position": 2133,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 53,
+      "path": "HRSCD/2006/35-2006-0330-6820-LA93.tif",
+      "identity_sha256": "b5bc105c851fe0b53587f2a731b5406493871bcd11652a3eead4b9eeccfcfb7d",
+      "candidate_offset": 26
+    },
+    {
+      "selection_position": 297,
+      "official_position": 2135,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 55,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4284.png",
+      "identity_sha256": "9327fef183b22b1d3a1454ed53c5083d80d5b7e9f5667c997f7d6a3749a17f31",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 298,
+      "official_position": 2137,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 57,
+      "path": "MiniFrance/44-2013-0335-6685-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "70fc6fd2947aae71a95a8ce8db210cf056b3a93eb2cb72a78865540d6d195a13",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 299,
+      "official_position": 2139,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 59,
+      "path": "HRSCD/2006/35-2006-0335-6755-LA93.tif",
+      "identity_sha256": "ca9d37875651582ab43250468d27e5f85491ec67b19987ae90035692bf22064a",
+      "candidate_offset": 29
+    },
+    {
+      "selection_position": 300,
+      "official_position": 2141,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 61,
+      "path": "HRSCD/2012/35-2012-0340-6755-LA93-0M50-E080.tif",
+      "identity_sha256": "0ad510d533651830632ec873e9dfb6d842a6227d65507563a4afe07a89d20daa",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 301,
+      "official_position": 2143,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 63,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11151.png",
+      "identity_sha256": "5906c617f45e4880dd3f17d59c6f3f34c1892dc8ec4e88044df1c44c1ff8ac71",
+      "candidate_offset": 31
+    },
+    {
+      "selection_position": 302,
+      "official_position": 2145,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 65,
+      "path": "MiniFrance/44-2013-0370-6685-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "9502cbed1144af944fb45db1ca0f51f23068c8de8b1a192dd38917a5fe73a8e8",
+      "candidate_offset": 32
+    },
+    {
+      "selection_position": 303,
+      "official_position": 2147,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 67,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10573.png",
+      "identity_sha256": "f40d9ec4962f221d967a54e3b9fb0c504c1344d92c0ea73fb23d248309bc4b92",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 304,
+      "official_position": 2149,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 69,
+      "path": "MiniFrance/22-2012-0230-6845-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "33cda759509af9a740b88da23bbfb3685db8c7a51964f743e0e1ff07387375f9",
+      "candidate_offset": 34
+    },
+    {
+      "selection_position": 305,
+      "official_position": 2151,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 71,
+      "path": "HRSCD/2012/35-2012-0345-6775-LA93-0M50-E080.tif",
+      "identity_sha256": "dd74ec0ef9ece166e8ef0697c08e3b196f206f79702ac69158eb569951225f5b",
+      "candidate_offset": 35
+    },
+    {
+      "selection_position": 306,
+      "official_position": 2153,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 73,
+      "path": "MiniFrance/59-2012-0725-7025-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "6ee0daf9e8f9824ded0ef45f31b7ac8b9152bccb95e3756a201945529b74aa4f",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 307,
+      "official_position": 2155,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 75,
+      "path": "ITCVD/00094.jpg",
+      "identity_sha256": "30bd9a69f123a6fd4de8699c68f3a926abeeaecadc58942b40efb66bf5b1ed47",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 308,
+      "official_position": 2157,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 77,
+      "path": "MiniFrance/59-2012-0740-7030-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "67a3f53bd3075622f6a9e0f8a10c4ef01c8b08aff64c84209777a58557fab43a",
+      "candidate_offset": 38
+    },
+    {
+      "selection_position": 309,
+      "official_position": 2159,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 79,
+      "path": "MiniFrance/62-2012-0625-7040-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b099de8336ace58e5a75ff9b852840dea630a47a9e7b51ff4265065b201a4957",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 310,
+      "official_position": 2161,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 81,
+      "path": "MiniFrance/22-2012-0230-6865-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "5626fd89ef107f7febb1d4098871980f7b69a846ba415f7825f388d971ff3652",
+      "candidate_offset": 40
+    },
+    {
+      "selection_position": 311,
+      "official_position": 2163,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 83,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3543.png",
+      "identity_sha256": "eb9e44d10cb6a91acd6dda48c5c2d990c547ff5a19dd9c4b796fd6e79484e3a0",
+      "candidate_offset": 41
+    },
+    {
+      "selection_position": 312,
+      "official_position": 2165,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 85,
+      "path": "MiniFrance/44-2013-0385-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "70979a0bb53894520ac5a53aaba8fa5f611df7f7e0e22d2593191ffe6ecdf8de",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 313,
+      "official_position": 2167,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 87,
+      "path": "MiniFrance/44-2013-0370-6695-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "082e338912f73f4bc0e7131273d7770c31607a5b007152466ff9e82120e33e91",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 314,
+      "official_position": 2169,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 89,
+      "path": "MiniFrance/56-2013-0215-6760-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "fb211580c7ecc4b66985bfba4f8147ab213ded412e6f2ae4cf046d3dfbfb3195",
+      "candidate_offset": 44
+    },
+    {
+      "selection_position": 315,
+      "official_position": 2171,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 91,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6942.png",
+      "identity_sha256": "0fb0a925eb7e35da7797e53046cb173e8ed59c7ed26de4478e987a206ead0a2e",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 316,
+      "official_position": 2173,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 93,
+      "path": "MiniFrance/59-2012-0730-7035-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "43353e55a4aa14ce3eafa707434ec211cd45c8fd4f29247ba65f8c543ffc7bfc",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 317,
+      "official_position": 2175,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 95,
+      "path": "HRSCD/2012/35-2012-0355-6820-LA93-0M50-E080.tif",
+      "identity_sha256": "a7206a9682bd8fec00778668010f15ab06929ca7280a34a1cb3be32dcbcd3668",
+      "candidate_offset": 47
+    },
+    {
+      "selection_position": 318,
+      "official_position": 2177,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 97,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11097.png",
+      "identity_sha256": "26eea0e58468500cc07cd355bc76045b02cb69c568e21a671c61ff3a35c4bfde",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 319,
+      "official_position": 2179,
+      "category": "Land use classification/Overall Land use classification",
+      "index": 99,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10590.png",
+      "identity_sha256": "7b4613f773db62d32809cdddf23e3e4243f25edd218a2fd597e541302c2774c9",
+      "candidate_offset": 49
+    },
+    {
+      "selection_position": 320,
+      "official_position": 921,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 1,
+      "path": "MiniFrance-2/44-2013-0345-6715-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "63e27f7f38240e5a9fb289a935ccc722c84d7dffd79045f589c8debb8507692d",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 321,
+      "official_position": 925,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 5,
+      "path": "MiniFrance-2/44-2013-0365-6710-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "21e2bee9b854d98fbff5e8cfb603b5efa3b89668559120af9a55166bf827e821",
+      "candidate_offset": 3
+    },
+    {
+      "selection_position": 322,
+      "official_position": 929,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 9,
+      "path": "HRSCD-2006-2/35-2006-0380-6805-LA93-2.tif",
+      "identity_sha256": "1e5fa3a3a89b6c2f07030d8e09bb3e4796f79c9a5d5cbb580c9fbde294689c8d",
+      "candidate_offset": 6
+    },
+    {
+      "selection_position": 323,
+      "official_position": 933,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 13,
+      "path": "HRSCD-2006-2/35-2006-0330-6805-LA93-1.png",
+      "identity_sha256": "e4d6f6a69a715a2d0c8a9b34436b5c1cb4467b4f1d8ec0e19baebf331f49b2a2",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 324,
+      "official_position": 937,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 17,
+      "path": "MiniFrance-2/44-2013-0300-6720-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "b15ed8f4b46cbae75fb4008027b9cab2b119a5584557d5e32cb397b2a5c3a62a",
+      "candidate_offset": 12
+    },
+    {
+      "selection_position": 325,
+      "official_position": 941,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 21,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P4468-1.png",
+      "identity_sha256": "1e63eeaa77e193f8e3a55c3ff8968669dd33dd829ae654e3baf7b871422adbe9",
+      "candidate_offset": 15
+    },
+    {
+      "selection_position": 326,
+      "official_position": 945,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 25,
+      "path": "DOTA_v2_4912_7360-2/dota_v2_dota_v2_dota_v2_P7538-1.png",
+      "identity_sha256": "bf9461d5eadc9d813d553e9a02ade791534224745fd8281a307c94b791323a7b",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 327,
+      "official_position": 949,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 29,
+      "path": "MiniFrance-2/62-2012-0680-7060-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "e533b9ff832665c7b27d41ecdfb3a7162e5f4c941756947a044f0a2f2d1f32ae",
+      "candidate_offset": 21
+    },
+    {
+      "selection_position": 328,
+      "official_position": 953,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 33,
+      "path": "HRSCD-2012-2/35-2012-0340-6780-LA93-0M50-E080-2.png",
+      "identity_sha256": "88718ecfe5ea8197bfc306cacdcd11f5021f25de68ae736942f86fb3f276cac4",
+      "candidate_offset": 24
+    },
+    {
+      "selection_position": 329,
+      "official_position": 957,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 37,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P11104-1.png",
+      "identity_sha256": "c8bb4460c3f67b4a5ca23bc71b2eee237d01b5c46eb9f839ac1422df6fa888c0",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 330,
+      "official_position": 961,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 41,
+      "path": "HRSCD-2012-2/35-2012-0355-6780-LA93-0M50-E080-1.tif",
+      "identity_sha256": "3adfd635b97d2e07caaac0a53b6eee94944aa67b018887fc47805c8b79e49b74",
+      "candidate_offset": 30
+    },
+    {
+      "selection_position": 331,
+      "official_position": 965,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 45,
+      "path": "HRSCD-2012-2/35-2012-0345-6820-LA93-0M50-E080-1.png",
+      "identity_sha256": "3cd31f506a9c5e81cc7776ca0bd142d01602a611b2f23c740054bb462ead7814",
+      "candidate_offset": 33
+    },
+    {
+      "selection_position": 332,
+      "official_position": 969,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 49,
+      "path": "MiniFrance-2/59-2012-0765-7020-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "6e53b9aad7f1507ff9db4eec2a02df084ce38b4dc81d5dd3ff9bd2594a0c9990",
+      "candidate_offset": 36
+    },
+    {
+      "selection_position": 333,
+      "official_position": 972,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 52,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P11150-1.png",
+      "identity_sha256": "6f236eaea90ebaca9210eff3d6bbc3060e97b748675bb4176c5c427a4d7e0965",
+      "candidate_offset": 39
+    },
+    {
+      "selection_position": 334,
+      "official_position": 976,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 56,
+      "path": "HRSCD-2012-2/35-2012-0365-6765-LA93-0M50-E080-1.tif",
+      "identity_sha256": "9fb66bd14cc0466de8e89d213835424c96f4b98bb6e7dc9f24ce750c1758cc18",
+      "candidate_offset": 42
+    },
+    {
+      "selection_position": 335,
+      "official_position": 980,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 60,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P3075-2.png",
+      "identity_sha256": "544c656c710d0ed70c371d39b77f891ce0ee728fefd5549a47c90acf51051739",
+      "candidate_offset": 45
+    },
+    {
+      "selection_position": 336,
+      "official_position": 984,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 64,
+      "path": "DOTA_v2_4912_7360-2/dota_v2_dota_v2_dota_v2_P6725-2.png",
+      "identity_sha256": "be4e26abba960b6f7d0938979fd2479ad456c3ad4771b19f38acd0046b415879",
+      "candidate_offset": 48
+    },
+    {
+      "selection_position": 337,
+      "official_position": 988,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 68,
+      "path": "MiniFrance-2/44-2013-0375-6675-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "0765287d536998d262bc13f31c47617b5539ed55749902d38f157af7ba3078f4",
+      "candidate_offset": 51
+    },
+    {
+      "selection_position": 338,
+      "official_position": 992,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 72,
+      "path": "MiniFrance-2/44-2013-0350-6665-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "c2800efd09d6ffb4d5f2a6334c43b82c5f3215bf5c52097ca240f17341c104d1",
+      "candidate_offset": 54
+    },
+    {
+      "selection_position": 339,
+      "official_position": 996,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 76,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P4272-2.png",
+      "identity_sha256": "b157b7fa7f53a158905ddbc94fc50e1c1651baec0ae5eb0ad5a35fdb9110b102",
+      "candidate_offset": 57
+    },
+    {
+      "selection_position": 340,
+      "official_position": 1000,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 80,
+      "path": "HRSCD-2006-2/35-2006-0335-6770-LA93-2.png",
+      "identity_sha256": "03e13cc5ac894c1be36edb2fd631514eef4005405066dd9bad770f2e2dbc35ee",
+      "candidate_offset": 60
+    },
+    {
+      "selection_position": 341,
+      "official_position": 1004,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 84,
+      "path": "HRSCD-2006-2/35-2006-0365-6825-LA93-2.tif",
+      "identity_sha256": "a437a0929fb46fdc084165a5719097e1a74c743afa6b2fea63855670e38a3381",
+      "candidate_offset": 63
+    },
+    {
+      "selection_position": 342,
+      "official_position": 1008,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 88,
+      "path": "MiniFrance-2/29-2012-0170-6790-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "1c6e53b63892bf1ed9035269a0f0b7964c8f7e35fae06ddbfd88e7f2000a0113",
+      "candidate_offset": 66
+    },
+    {
+      "selection_position": 343,
+      "official_position": 1012,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 92,
+      "path": "HRSCD-2012-2/35-2012-0360-6755-LA93-0M50-E080-2.tif",
+      "identity_sha256": "83f44f05d784c5318117e6747f98fc19995182e56f3013dcb8cefe7900a636e6",
+      "candidate_offset": 69
+    },
+    {
+      "selection_position": 344,
+      "official_position": 1016,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 96,
+      "path": "MiniFrance-2/62-2012-0680-7050-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "559860cb70975f96361b7be17e6ae29f8ef87f93094ed199b94e324fe7811969",
+      "candidate_offset": 72
+    },
+    {
+      "selection_position": 345,
+      "official_position": 1022,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 102,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P9542-1.png",
+      "identity_sha256": "bf84293f63ba5ea180133c15e809070f585cefeb384d35a0a44177b702e1237d",
+      "candidate_offset": 76
+    },
+    {
+      "selection_position": 346,
+      "official_position": 1026,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 106,
+      "path": "MiniFrance-2/56-2013-0215-6760-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "ce1b8fba7dc136d513f7fb047d80a37f13c1df341d866cdea4a9e63388bd45d1",
+      "candidate_offset": 79
+    },
+    {
+      "selection_position": 347,
+      "official_position": 1030,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 110,
+      "path": "HRSCD-2006-2/35-2006-0330-6815-LA93-2.png",
+      "identity_sha256": "73337799d220aed5842a7ffc6fb604d0fea45e339469b06e2c99e93cb6a1aa5c",
+      "candidate_offset": 82
+    },
+    {
+      "selection_position": 348,
+      "official_position": 1034,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 114,
+      "path": "DOTA_v2_4912_7360-2/dota_v2_dota_v2_dota_v2_P5524-1.png",
+      "identity_sha256": "3fefc64b543aede74ac1630ea1359fe5cb1090831c0d5fd58585022e744bc8b3",
+      "candidate_offset": 85
+    },
+    {
+      "selection_position": 349,
+      "official_position": 1038,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 118,
+      "path": "HRSCD-2012-2/35-2012-0330-6760-LA93-0M50-E080-1.png",
+      "identity_sha256": "bfdf551848c9b4211bdf74a326e971a7593288bfcc613d105d77a0e482549eee",
+      "candidate_offset": 88
+    },
+    {
+      "selection_position": 350,
+      "official_position": 1042,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 122,
+      "path": "HRSCD-2012-2/35-2012-0345-6755-LA93-0M50-E080-1.png",
+      "identity_sha256": "b2a9a49f4c04f6049488c97fb99c350262c224487cd5bcfdb7524bbcfcd346be",
+      "candidate_offset": 91
+    },
+    {
+      "selection_position": 351,
+      "official_position": 1046,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 126,
+      "path": "HRSCD-2012-2/35-2012-0365-6770-LA93-0M50-E080-2.tif",
+      "identity_sha256": "348e93b353b00c9ada1c87f3e309430c448484a838f9aaa0029c4e64d197ba26",
+      "candidate_offset": 94
+    },
+    {
+      "selection_position": 352,
+      "official_position": 1050,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 130,
+      "path": "HRSCD-2006-2/35-2006-0350-6755-LA93-2.png",
+      "identity_sha256": "b6ae46b9b32da21abac3be6e6dd45a2e987b80d2a0b2d8ab31db0a06307b5544",
+      "candidate_offset": 97
+    },
+    {
+      "selection_position": 353,
+      "official_position": 1054,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 134,
+      "path": "HRSCD-2006-2/35-2006-0335-6830-LA93-1.png",
+      "identity_sha256": "00cda41e6767e3022e8515542a12a57243d9b203c1f6c66e26b3d14f9e666d6e",
+      "candidate_offset": 100
+    },
+    {
+      "selection_position": 354,
+      "official_position": 1058,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 138,
+      "path": "MiniFrance-2/29-2012-0140-6800-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "65442d3fc7eaa1edf4113605b88104660ed9021dd3eccab7dba4a751e3e2afb0",
+      "candidate_offset": 103
+    },
+    {
+      "selection_position": 355,
+      "official_position": 1062,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 142,
+      "path": "MiniFrance-2/44-2013-0365-6715-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "e426b25a378bc9ec4731df8e39702f6d959824c6da77739ab771bcfbf445f11e",
+      "candidate_offset": 106
+    },
+    {
+      "selection_position": 356,
+      "official_position": 1066,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 146,
+      "path": "DOTA_v2_4912_7360-2/dota_v2_dota_v2_dota_v2_P8304-2.png",
+      "identity_sha256": "f8ce250c9a2623cbcd0b337bf5b256f9e6345e36cbbd7f2768ce8ad4510e8f5a",
+      "candidate_offset": 109
+    },
+    {
+      "selection_position": 357,
+      "official_position": 1069,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 149,
+      "path": "HRSCD-2006-2/35-2006-0365-6765-LA93-1.tif",
+      "identity_sha256": "db8494aa11c2c91a6070b224ecebfa5b5402aa3a20ab60058a11b8ad1187a1bf",
+      "candidate_offset": 112
+    },
+    {
+      "selection_position": 358,
+      "official_position": 1073,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 153,
+      "path": "MiniFrance-2/44-2013-0380-6710-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "03f2f837a943a0d18662c8d5970846332707ae65fe9e96cd743df22dd96de8b3",
+      "candidate_offset": 115
+    },
+    {
+      "selection_position": 359,
+      "official_position": 1077,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 157,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P8664-1.png",
+      "identity_sha256": "8c1ecf8aaa5a046016c01768fcd88d81f5c2f4eec5d36c29da1dbb7cfe4ef5c8",
+      "candidate_offset": 118
+    },
+    {
+      "selection_position": 360,
+      "official_position": 1081,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 161,
+      "path": "HRSCD-2006-2/35-2006-0355-6760-LA93-2.tif",
+      "identity_sha256": "762fcc148153f00dfcd2eeb481658c3e0a4edbc6bbd13ecc21e114a9766416f2",
+      "candidate_offset": 121
+    },
+    {
+      "selection_position": 361,
+      "official_position": 1085,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 165,
+      "path": "MiniFrance-2/22-2012-0210-6835-LA93-0M50-E080.jp2-1.tif",
+      "identity_sha256": "bd8e20fd6975acfa0da71075bb10996d754c2a6f28bb1852b3aa02574005d49b",
+      "candidate_offset": 124
+    },
+    {
+      "selection_position": 362,
+      "official_position": 1089,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 169,
+      "path": "HRSCD-2012-2/35-2012-0350-6820-LA93-0M50-E080-2.tif",
+      "identity_sha256": "39e01d0b259a06ff26c23e30f2b23426afbe462248df9e007f9cb65e058c1c1b",
+      "candidate_offset": 127
+    },
+    {
+      "selection_position": 363,
+      "official_position": 1093,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 173,
+      "path": "HRSCD-2012-2/35-2012-0375-6790-LA93-0M50-E080-1.tif",
+      "identity_sha256": "a04c572f36648464cba4acc59dc2fca7ee3c306119fa5b9e7cc3eeac8d460b57",
+      "candidate_offset": 130
+    },
+    {
+      "selection_position": 364,
+      "official_position": 1097,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 177,
+      "path": "HRSCD-2012-2/35-2012-0345-6755-LA93-0M50-E080-2.png",
+      "identity_sha256": "eb7e3663eacb45adf659b34da459feb955430e74d266ca5362e07c1daea768ac",
+      "candidate_offset": 133
+    },
+    {
+      "selection_position": 365,
+      "official_position": 1101,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 181,
+      "path": "MiniFrance-2/29-2012-0170-6790-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "d9acba4c0cadc9872b70a692cc90797a990efeb698cdbd6c21a3ab1e3a2c041c",
+      "candidate_offset": 136
+    },
+    {
+      "selection_position": 366,
+      "official_position": 1105,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 185,
+      "path": "DOTA_v2_4096_4096-2/dota_v2_dota_v2_dota_v2_P8717-1.png",
+      "identity_sha256": "fbe2c0a9851bd051b2e1e81565c560d7dc179d19074f452b03e9d695f470f8a8",
+      "candidate_offset": 139
+    },
+    {
+      "selection_position": 367,
+      "official_position": 1109,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 189,
+      "path": "DOTA_v2_4912_7360-2/dota_v2_dota_v2_dota_v2_P3073-1.png",
+      "identity_sha256": "3ac1dcb39c691685ea505e2cf5b489ddae4c8755a58bda59790ed065e209676c",
+      "candidate_offset": 142
+    },
+    {
+      "selection_position": 368,
+      "official_position": 1113,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 193,
+      "path": "MiniFrance-2/44-2013-0370-6700-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "f2980327393384871cfbba96199dc0d6937e6393cdf238be9e94cacc6b151c7e",
+      "candidate_offset": 145
+    },
+    {
+      "selection_position": 369,
+      "official_position": 1117,
+      "category": "Land use classification/Regional Land use classification",
+      "index": 197,
+      "path": "MiniFrance-2/29-2012-0195-6855-LA93-0M50-E080.jp2-2.tif",
+      "identity_sha256": "27baa393970fa795604bdb438191a8e50e8d12c538b2ab6d00e1f645b1daa70a",
+      "candidate_offset": 148
+    },
+    {
+      "selection_position": 370,
+      "official_position": 2182,
+      "category": "Object properties/Object classification",
+      "index": 2,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11175.png",
+      "identity_sha256": "5692f67d121afc8cc420b5dc8c8cde59d9783d51f92df727c18285c87b38f9c0",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 371,
+      "official_position": 2198,
+      "category": "Object properties/Object classification",
+      "index": 18,
+      "path": "MiniFrance/44-2013-0315-6700-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "d85a9a4150e568f62bfe2e8aa6f67d386bda33b495c0b8101fa223b34577eb8d",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 372,
+      "official_position": 2212,
+      "category": "Object properties/Object classification",
+      "index": 32,
+      "path": "MiniFrance/44-2013-0340-6680-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "83787e2bbe3baf9a55011df585b6b7f66491a09e337d1081adf7fc9e0133702e",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 373,
+      "official_position": 2231,
+      "category": "Object properties/Object classification",
+      "index": 51,
+      "path": "MiniFrance/44-2013-0375-6670-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "786ec20c602139615a0c9c34a907899ba972ca504cdd03181b6fba551e6675e5",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 374,
+      "official_position": 2247,
+      "category": "Object properties/Object classification",
+      "index": 67,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3070.png",
+      "identity_sha256": "d44c56e3c4775c546c087ae2cae148a7a9a49f4c94a195f1e5123e49d4ed412b",
+      "candidate_offset": 57
+    },
+    {
+      "selection_position": 375,
+      "official_position": 2263,
+      "category": "Object properties/Object classification",
+      "index": 83,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P9542.png",
+      "identity_sha256": "489f753ae6a04539c2eb7b10f7c633fbe654b239bf8e08c737c9a1f399ed10a7",
+      "candidate_offset": 71
+    },
+    {
+      "selection_position": 376,
+      "official_position": 2277,
+      "category": "Object properties/Object classification",
+      "index": 97,
+      "path": "MiniFrance/44-2013-0345-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "f1b5f93bf16daa16471ec02827be896ef5dc631e7ee3a601e54a72ac8365a847",
+      "candidate_offset": 85
+    },
+    {
+      "selection_position": 377,
+      "official_position": 2296,
+      "category": "Object properties/Object classification",
+      "index": 116,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8032.png",
+      "identity_sha256": "2808b4d52ccddaae869ecc33f5f8d1b8a7f81e94c1e8dc9949e3ed009511c0a9",
+      "candidate_offset": 100
+    },
+    {
+      "selection_position": 378,
+      "official_position": 2312,
+      "category": "Object properties/Object classification",
+      "index": 132,
+      "path": "HRSCD/2006/35-2006-0335-6805-LA93.tif",
+      "identity_sha256": "c6ef1969cbee655041fd9e0e30a2e5ae97ffbea4b5d0476bdfbde15dc03edcf5",
+      "candidate_offset": 114
+    },
+    {
+      "selection_position": 379,
+      "official_position": 2328,
+      "category": "Object properties/Object classification",
+      "index": 148,
+      "path": "ITCVD/00155.jpg",
+      "identity_sha256": "cbf21232540658f63cf0fb6a9d8825e9ce4e07b2e0830ce42e945e23fdeea18d",
+      "candidate_offset": 128
+    },
+    {
+      "selection_position": 380,
+      "official_position": 2342,
+      "category": "Object properties/Object classification",
+      "index": 162,
+      "path": "MiniFrance/22-2012-0210-6835-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "176c40a7a166c10f73f4b54aa6ff1829e852c91df2276bf956331561cc30e9fe",
+      "candidate_offset": 142
+    },
+    {
+      "selection_position": 381,
+      "official_position": 2361,
+      "category": "Object properties/Object classification",
+      "index": 181,
+      "path": "HRSCD/2006/14-2005-0425-6900-LA93.tif",
+      "identity_sha256": "8c2b25d6c69f98e4a30894de29674a4c056cf92ed934055400b0e65d40c1ebb0",
+      "candidate_offset": 157
+    },
+    {
+      "selection_position": 382,
+      "official_position": 2377,
+      "category": "Object properties/Object classification",
+      "index": 197,
+      "path": "HRSCD/2006/35-2006-0330-6825-LA93.tif",
+      "identity_sha256": "87215464731cf7ef296f33e4fa22e05a879922d83d508da3c8e208151cf49966",
+      "candidate_offset": 171
+    },
+    {
+      "selection_position": 383,
+      "official_position": 2393,
+      "category": "Object properties/Object classification",
+      "index": 213,
+      "path": "MiniFrance/44-2013-0365-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "c3e6e696936c0efc7779249b1f0775ff0b4a9e8775f759d1bde9dc0dff67cd89",
+      "candidate_offset": 185
+    },
+    {
+      "selection_position": 384,
+      "official_position": 2407,
+      "category": "Object properties/Object classification",
+      "index": 227,
+      "path": "HRSCD/2012/35-2012-0360-6790-LA93-0M50-E080.tif",
+      "identity_sha256": "635ef0e2313a5c7696bc8d971f25085e6f5d074871dcdccb962e327f2048e2f4",
+      "candidate_offset": 199
+    },
+    {
+      "selection_position": 385,
+      "official_position": 2426,
+      "category": "Object properties/Object classification",
+      "index": 246,
+      "path": "HRSCD/2006/35-2006-0330-6780-LA93.tif",
+      "identity_sha256": "a49087d6ac34e7363ea219066eb48c1b5220103e7c66070ff5648d091f920400",
+      "candidate_offset": 214
+    },
+    {
+      "selection_position": 386,
+      "official_position": 2442,
+      "category": "Object properties/Object classification",
+      "index": 262,
+      "path": "MiniFrance/44-2013-0365-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b32f21bf2d205223e8cf041b8bb6f52ed7dbb0d35fee43ca5f2d24f73c47cd29",
+      "candidate_offset": 228
+    },
+    {
+      "selection_position": 387,
+      "official_position": 2456,
+      "category": "Object properties/Object classification",
+      "index": 276,
+      "path": "MiniFrance/44-2013-0350-6680-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "e6ec5a6783bfb572e0d35ec2cef50b2088ae651a1ab842ee4b72d471272dd39e",
+      "candidate_offset": 242
+    },
+    {
+      "selection_position": 388,
+      "official_position": 2472,
+      "category": "Object properties/Object classification",
+      "index": 292,
+      "path": "MiniFrance/44-2013-0390-6730-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "7ca9da1051e7dfb3a6654c7fc8cfebdaef79a68d7eeb10278a115a02cc00a20f",
+      "candidate_offset": 256
+    },
+    {
+      "selection_position": 389,
+      "official_position": 2491,
+      "category": "Object properties/Object classification",
+      "index": 311,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6234.png",
+      "identity_sha256": "274905ebc07370cc92215a4d2709fd8e0fc6d873651700eef398f0351f434709",
+      "candidate_offset": 271
+    },
+    {
+      "selection_position": 390,
+      "official_position": 2507,
+      "category": "Object properties/Object classification",
+      "index": 327,
+      "path": "HRSCD/2006/35-2006-0335-6780-LA93.tif",
+      "identity_sha256": "7fe6bfbb6a6f46fa45297f18dd35b44975ffde803ca638df1a08b99b1f241c44",
+      "candidate_offset": 285
+    },
+    {
+      "selection_position": 391,
+      "official_position": 2521,
+      "category": "Object properties/Object classification",
+      "index": 341,
+      "path": "Potsdam/top_potsdam_6_11_RGB_Potsdam.png",
+      "identity_sha256": "1114c3070b43bf29976f6d053e5410b236ee11e820722899afb8ec1095ed5f47",
+      "candidate_offset": 299
+    },
+    {
+      "selection_position": 392,
+      "official_position": 2537,
+      "category": "Object properties/Object classification",
+      "index": 357,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4561.png",
+      "identity_sha256": "d9584284e5f76c190fa8c2bd934fa6c6cb5a392f2884d774729c8752a849e36b",
+      "candidate_offset": 313
+    },
+    {
+      "selection_position": 393,
+      "official_position": 2556,
+      "category": "Object properties/Object classification",
+      "index": 376,
+      "path": "MiniFrance/44-2013-0310-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "6a9473f303ed898f509afdf40ce8127370fbb00c77fd48320280301851c03e32",
+      "candidate_offset": 328
+    },
+    {
+      "selection_position": 394,
+      "official_position": 2572,
+      "category": "Object properties/Object classification",
+      "index": 392,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5997.png",
+      "identity_sha256": "cfd8be0b75cc649c40b61022873e59259da15df7bd201a1aeb06be86a88cc668",
+      "candidate_offset": 342
+    },
+    {
+      "selection_position": 395,
+      "official_position": 2586,
+      "category": "Object properties/Object classification",
+      "index": 406,
+      "path": "HRSCD/2012/35-2012-0340-6830-LA93-0M50-E080.tif",
+      "identity_sha256": "99526e4b98640c559df8852abccea90e78920f85ff7cb711fc8acefce4d23868",
+      "candidate_offset": 356
+    },
+    {
+      "selection_position": 396,
+      "official_position": 2602,
+      "category": "Object properties/Object classification",
+      "index": 422,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5800.png",
+      "identity_sha256": "c9277cf98856380fce09c4e16d7beb0813deb267029326ffb176b0d531669b60",
+      "candidate_offset": 370
+    },
+    {
+      "selection_position": 397,
+      "official_position": 2621,
+      "category": "Object properties/Object classification",
+      "index": 441,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9431.png",
+      "identity_sha256": "20182c0639ba36916111c03d0ff177f96bd25060ac20e09bc60811176df12407",
+      "candidate_offset": 385
+    },
+    {
+      "selection_position": 398,
+      "official_position": 2637,
+      "category": "Object properties/Object classification",
+      "index": 457,
+      "path": "HRSCD/2012/35-2012-0345-6825-LA93-0M50-E080.tif",
+      "identity_sha256": "19dabb9218c8e843e6ae29d03b3df9f70a39d723b8eada7f01aadaf36ee2cfde",
+      "candidate_offset": 399
+    },
+    {
+      "selection_position": 399,
+      "official_position": 2651,
+      "category": "Object properties/Object classification",
+      "index": 471,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11125.png",
+      "identity_sha256": "183324273cacf350a26223071060afd33de75dcd60c296080654a1512968ba01",
+      "candidate_offset": 413
+    },
+    {
+      "selection_position": 400,
+      "official_position": 2667,
+      "category": "Object properties/Object classification",
+      "index": 487,
+      "path": "MiniFrance/44-2013-0360-6750-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b6c67d77f0f46897a67b2046556603797ac9c5433c66e5763233e59a2db84932",
+      "candidate_offset": 427
+    },
+    {
+      "selection_position": 401,
+      "official_position": 2686,
+      "category": "Object properties/Object classification",
+      "index": 506,
+      "path": "MiniFrance/44-2013-0390-6720-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "005a156cb0ff6b2c850e1c474c22319c81f1d9c8b9fdf365789efbb9807a649f",
+      "candidate_offset": 442
+    },
+    {
+      "selection_position": 402,
+      "official_position": 2702,
+      "category": "Object properties/Object classification",
+      "index": 522,
+      "path": "MiniFrance/59-2012-0725-7040-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "8573972a5fcabeabd1ee46fab4ef9bb7809993244cad746da19c2b0f1a7a6836",
+      "candidate_offset": 456
+    },
+    {
+      "selection_position": 403,
+      "official_position": 2716,
+      "category": "Object properties/Object classification",
+      "index": 536,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6317.png",
+      "identity_sha256": "0cbe7727b377ad2006ed96700d23440bbf386363e3bd208621070a0cd656d276",
+      "candidate_offset": 470
+    },
+    {
+      "selection_position": 404,
+      "official_position": 2732,
+      "category": "Object properties/Object classification",
+      "index": 552,
+      "path": "MiniFrance/44-2013-0380-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b9d95188e58c63b51e4b48e666a7e8123176184b64c5e6432bace0c627e5b9e3",
+      "candidate_offset": 484
+    },
+    {
+      "selection_position": 405,
+      "official_position": 2751,
+      "category": "Object properties/Object classification",
+      "index": 571,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6234.png",
+      "identity_sha256": "deb31abb51d4460fcc2e99a7409ad31ff1e6162162859e98e8c059ef816196a3",
+      "candidate_offset": 499
+    },
+    {
+      "selection_position": 406,
+      "official_position": 2765,
+      "category": "Object properties/Object classification",
+      "index": 585,
+      "path": "HRSCD/2012/35-2012-0340-6825-LA93-0M50-E080.tif",
+      "identity_sha256": "d09bcc60b963a7cdf78984df0bf35b96f8b1caadef31e2490822f09040b6d540",
+      "candidate_offset": 513
+    },
+    {
+      "selection_position": 407,
+      "official_position": 2781,
+      "category": "Object properties/Object classification",
+      "index": 601,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11099.png",
+      "identity_sha256": "0cd75302a2bc7a0fd3c1035b23d4bfec96f86631b47bc92a1704f078f1675a56",
+      "candidate_offset": 527
+    },
+    {
+      "selection_position": 408,
+      "official_position": 2797,
+      "category": "Object properties/Object classification",
+      "index": 617,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9825.png",
+      "identity_sha256": "76353cbd2e9ea856c06ca828fdd7cbfbf1e2cb51d1b421c7cc9d80d4642b15ef",
+      "candidate_offset": 541
+    },
+    {
+      "selection_position": 409,
+      "official_position": 2816,
+      "category": "Object properties/Object classification",
+      "index": 636,
+      "path": "MiniFrance/59-2012-0735-7030-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "d8f091968b2f8f4f050d62ede6e5ad4197d7600c0fa9977d1c4037c0d84bac7a",
+      "candidate_offset": 556
+    },
+    {
+      "selection_position": 410,
+      "official_position": 2830,
+      "category": "Object properties/Object classification",
+      "index": 650,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8103.png",
+      "identity_sha256": "bfeda075ced02eb544f21eae62fdf4f90343ead0ec11c86757db351d4cccf63d",
+      "candidate_offset": 570
+    },
+    {
+      "selection_position": 411,
+      "official_position": 2846,
+      "category": "Object properties/Object classification",
+      "index": 666,
+      "path": "ITCVD/00225.jpg",
+      "identity_sha256": "d9b374330a762c770a36e2bc088bbe500124d227e44df21a3944afa160a85b88",
+      "candidate_offset": 584
+    },
+    {
+      "selection_position": 412,
+      "official_position": 2862,
+      "category": "Object properties/Object classification",
+      "index": 682,
+      "path": "MiniFrance/44-2013-0385-6745-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "af9feb3b3c2bd2cc632aa89af2bf41fde34d83adedaeee53535e121ad4593903",
+      "candidate_offset": 598
+    },
+    {
+      "selection_position": 413,
+      "official_position": 2881,
+      "category": "Object properties/Object classification",
+      "index": 701,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5647.png",
+      "identity_sha256": "0455d39136de23efb5bf7b8bde7a9bc774883213f9ec551640ebacc5111e1042",
+      "candidate_offset": 613
+    },
+    {
+      "selection_position": 414,
+      "official_position": 2895,
+      "category": "Object properties/Object classification",
+      "index": 715,
+      "path": "MiniFrance/44-2013-0345-6700-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b3df6349887474d56d0a4d42683830d211aa0cf86181070cadff4ccf54543ace",
+      "candidate_offset": 627
+    },
+    {
+      "selection_position": 415,
+      "official_position": 2911,
+      "category": "Object properties/Object classification",
+      "index": 731,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5069.png",
+      "identity_sha256": "8b261620cba5e64ae182839c83bb23f7676c8b844ee49acb17a13757704926f6",
+      "candidate_offset": 641
+    },
+    {
+      "selection_position": 416,
+      "official_position": 2927,
+      "category": "Object properties/Object classification",
+      "index": 747,
+      "path": "MiniFrance/56-2013-0285-6725-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "fd92a6e4e551904a12df2423d95cb0af60e5cb4b3fa15e73801bdf73ceed0bbc",
+      "candidate_offset": 655
+    },
+    {
+      "selection_position": 417,
+      "official_position": 2946,
+      "category": "Object properties/Object classification",
+      "index": 766,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5768.png",
+      "identity_sha256": "00118b60a782d3677f5fed269d1a1ee28dd8c6c8096edae462e8da528053cdac",
+      "candidate_offset": 670
+    },
+    {
+      "selection_position": 418,
+      "official_position": 2960,
+      "category": "Object properties/Object classification",
+      "index": 780,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6700.png",
+      "identity_sha256": "d73699f99d8b0e4c747445f664da0017f00ac3629925ab18bea0d5352b163635",
+      "candidate_offset": 684
+    },
+    {
+      "selection_position": 419,
+      "official_position": 2976,
+      "category": "Object properties/Object classification",
+      "index": 796,
+      "path": "MiniFrance/44-2013-0370-6690-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "766baaa7e8da5a77c8840be1ade647d9bc5fd5801f50f1e682496f7950e30ee8",
+      "candidate_offset": 698
+    },
+    {
+      "selection_position": 420,
+      "official_position": 1122,
+      "category": "Object properties/Object color",
+      "index": 2,
+      "path": "MiniFrance/29-2012-0160-6820-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "27cdeb098b2cb895bbd9ac87e448db3d7c7c54a34b45e13de270cc0f6dcf9d64",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 421,
+      "official_position": 1138,
+      "category": "Object properties/Object color",
+      "index": 18,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10949.png",
+      "identity_sha256": "7d4181123e601aa572eeb7239e30fd852e7ba41c9499dc5272d4881bdde8e68e",
+      "candidate_offset": 14
+    },
+    {
+      "selection_position": 422,
+      "official_position": 1152,
+      "category": "Object properties/Object color",
+      "index": 32,
+      "path": "MiniFrance/22-2012-0210-6855-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "387143b302a60b02876dd07949a81246d97f581da1f0a41f4220710c2330700f",
+      "candidate_offset": 28
+    },
+    {
+      "selection_position": 423,
+      "official_position": 1171,
+      "category": "Object properties/Object color",
+      "index": 51,
+      "path": "HRSCD/2012/35-2012-0350-6825-LA93-0M50-E080.tif",
+      "identity_sha256": "7be1d2c7d91187d77dcfa637f2d2dd31f917b90daf843634463f2bf31bd5b647",
+      "candidate_offset": 43
+    },
+    {
+      "selection_position": 424,
+      "official_position": 1187,
+      "category": "Object properties/Object color",
+      "index": 67,
+      "path": "HRSCD/2006/35-2006-0360-6810-LA93.tif",
+      "identity_sha256": "7f22ee033b2b18919aad84c4059b41e32ac2bfb1640b508ffb3bc076427c0899",
+      "candidate_offset": 57
+    },
+    {
+      "selection_position": 425,
+      "official_position": 1203,
+      "category": "Object properties/Object color",
+      "index": 83,
+      "path": "HRSCD/2006/14-2005-0435-6915-LA93.tif",
+      "identity_sha256": "896adbcb93899a830d3e41ea6eca3297d70c3814410d7fccc130b9f1cc21484e",
+      "candidate_offset": 71
+    },
+    {
+      "selection_position": 426,
+      "official_position": 1217,
+      "category": "Object properties/Object color",
+      "index": 97,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5036.png",
+      "identity_sha256": "e7cc355dcbec7cd40281ec837ddbdd7d7141763512d984654f8745ec70e8f2be",
+      "candidate_offset": 85
+    },
+    {
+      "selection_position": 427,
+      "official_position": 1236,
+      "category": "Object properties/Object color",
+      "index": 116,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10729.png",
+      "identity_sha256": "fee43d3e378c72ed4ba89dda5ea5c0413751fc77d8a7f3c75ee6b8aac9215f57",
+      "candidate_offset": 100
+    },
+    {
+      "selection_position": 428,
+      "official_position": 1252,
+      "category": "Object properties/Object color",
+      "index": 132,
+      "path": "MiniFrance/44-2013-0395-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "f2f538b28a614e919460038ecc6a02ee7d732ec5adfdacd763b86d2e61854496",
+      "candidate_offset": 114
+    },
+    {
+      "selection_position": 429,
+      "official_position": 1268,
+      "category": "Object properties/Object color",
+      "index": 148,
+      "path": "HRSCD/2006/35-2006-0360-6815-LA93.tif",
+      "identity_sha256": "5eb1ce5db3f256658ccfab37fd270313b243183204a8aafb47f4ee9094eedff1",
+      "candidate_offset": 128
+    },
+    {
+      "selection_position": 430,
+      "official_position": 1282,
+      "category": "Object properties/Object color",
+      "index": 162,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7603.png",
+      "identity_sha256": "654e27ab675a53eb303b90f149ba67575d3a6c334a3e7c54aa0f1e7bb5925676",
+      "candidate_offset": 142
+    },
+    {
+      "selection_position": 431,
+      "official_position": 1301,
+      "category": "Object properties/Object color",
+      "index": 181,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5195.png",
+      "identity_sha256": "3e94d18895e9046e85f97d33b09a0c0abe577ce292843f87d6851c9b56c84cc3",
+      "candidate_offset": 157
+    },
+    {
+      "selection_position": 432,
+      "official_position": 1317,
+      "category": "Object properties/Object color",
+      "index": 197,
+      "path": "ITCVD/00014.jpg",
+      "identity_sha256": "1636298d38329ec57c930e67d0121d3ccb6b244929daa0197aadc9c249b772a5",
+      "candidate_offset": 171
+    },
+    {
+      "selection_position": 433,
+      "official_position": 1333,
+      "category": "Object properties/Object color",
+      "index": 213,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3398.png",
+      "identity_sha256": "8d5973cf79601abb48fdac3d39f56da526359e6d6b55868a41ae51ed2c5242ab",
+      "candidate_offset": 185
+    },
+    {
+      "selection_position": 434,
+      "official_position": 1347,
+      "category": "Object properties/Object color",
+      "index": 227,
+      "path": "MiniFrance/29-2012-0140-6800-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "2459f52e1090e9233ea75a6a42600063a226dd18104c25f805bc7124d3df40ef",
+      "candidate_offset": 199
+    },
+    {
+      "selection_position": 435,
+      "official_position": 1366,
+      "category": "Object properties/Object color",
+      "index": 246,
+      "path": "HRSCD/2006/35-2006-0375-6790-LA93.tif",
+      "identity_sha256": "b4be82ca7e50395be9980d9957966effa5e6af75954a270b2a0f11bde2841d7e",
+      "candidate_offset": 214
+    },
+    {
+      "selection_position": 436,
+      "official_position": 1382,
+      "category": "Object properties/Object color",
+      "index": 262,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11151.png",
+      "identity_sha256": "7c795dc834de6c02f128c1e732e9842a222312eafdc30620cbc14157f650a02d",
+      "candidate_offset": 228
+    },
+    {
+      "selection_position": 437,
+      "official_position": 1396,
+      "category": "Object properties/Object color",
+      "index": 276,
+      "path": "MiniFrance/44-2013-0380-6745-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "181554430d29a4caead7bf458a0417822ac0d1d2611dc6f627678232bd05391b",
+      "candidate_offset": 242
+    },
+    {
+      "selection_position": 438,
+      "official_position": 1412,
+      "category": "Object properties/Object color",
+      "index": 292,
+      "path": "HRSCD/2006/35-2006-0330-6825-LA93.tif",
+      "identity_sha256": "2a9b432707d1660936c0decbc21f6bfaaaaa8a8444e0882122d76d4294ca15fa",
+      "candidate_offset": 256
+    },
+    {
+      "selection_position": 439,
+      "official_position": 1431,
+      "category": "Object properties/Object color",
+      "index": 311,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P2957.png",
+      "identity_sha256": "66f6867436775b2773197674e354e16ad75f944c505d2adaf2e458e0b3ba3696",
+      "candidate_offset": 271
+    },
+    {
+      "selection_position": 440,
+      "official_position": 1447,
+      "category": "Object properties/Object color",
+      "index": 327,
+      "path": "MiniFrance/44-2013-0365-6730-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "cda2b7bf8879be5f574a9073c694362d5572297d277c7dece9381e321f2900fb",
+      "candidate_offset": 285
+    },
+    {
+      "selection_position": 441,
+      "official_position": 1461,
+      "category": "Object properties/Object color",
+      "index": 341,
+      "path": "MiniFrance/44-2013-0390-6710-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "61a3a7823e3ff10bd8622e847905c97ebfba4174fec8299373441a7d2799020f",
+      "candidate_offset": 299
+    },
+    {
+      "selection_position": 442,
+      "official_position": 1477,
+      "category": "Object properties/Object color",
+      "index": 357,
+      "path": "HRSCD/2006/35-2006-0350-6790-LA93.tif",
+      "identity_sha256": "cb15a9fdc588b36502c9768f573b5f2f3e4d25f9fa104f152d89fc217bd7abee",
+      "candidate_offset": 313
+    },
+    {
+      "selection_position": 443,
+      "official_position": 1496,
+      "category": "Object properties/Object color",
+      "index": 376,
+      "path": "MiniFrance/29-2012-0185-6800-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "170cbecfa2bf552ff5cc0dbf6b812501ecb31a7b499fd0173cabacd4594d5c9c",
+      "candidate_offset": 328
+    },
+    {
+      "selection_position": 444,
+      "official_position": 1512,
+      "category": "Object properties/Object color",
+      "index": 392,
+      "path": "MiniFrance/44-2013-0380-6705-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "1c19f73465481df6cfc1798d2b6d5aaba87f8ce45a579261ce643ccfbeaba267",
+      "candidate_offset": 342
+    },
+    {
+      "selection_position": 445,
+      "official_position": 1526,
+      "category": "Object properties/Object color",
+      "index": 406,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3398.png",
+      "identity_sha256": "c2c759b04902c3fa450676408652c332f0a634727b390fbbff0117374023e05c",
+      "candidate_offset": 356
+    },
+    {
+      "selection_position": 446,
+      "official_position": 1542,
+      "category": "Object properties/Object color",
+      "index": 422,
+      "path": "HRSCD/2006/35-2006-0340-6755-LA93.tif",
+      "identity_sha256": "8cc075c3a78b96a14035efd519308611546097f6799ea1d0ed62bebc74944055",
+      "candidate_offset": 370
+    },
+    {
+      "selection_position": 447,
+      "official_position": 1561,
+      "category": "Object properties/Object color",
+      "index": 441,
+      "path": "MiniFrance/44-2013-0380-6735-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "a713be190240ceea8637bfd568d5fd4c5be74012a8bda293fca84d9435df1a48",
+      "candidate_offset": 385
+    },
+    {
+      "selection_position": 448,
+      "official_position": 1577,
+      "category": "Object properties/Object color",
+      "index": 457,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3244.png",
+      "identity_sha256": "5b2f38a62186958facbc70c834950f0d98d332c57d087dc989714cfda4d6aacb",
+      "candidate_offset": 399
+    },
+    {
+      "selection_position": 449,
+      "official_position": 1591,
+      "category": "Object properties/Object color",
+      "index": 471,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7491.png",
+      "identity_sha256": "821f7a6fef446418b29eb6029a303ea7d5373ba5cfd89542d02a4f4ef18b1222",
+      "candidate_offset": 413
+    },
+    {
+      "selection_position": 450,
+      "official_position": 1607,
+      "category": "Object properties/Object color",
+      "index": 487,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6336.png",
+      "identity_sha256": "08f9b6e85b82bd5ea2d1c5e2c494551f5023ddcf142bfb37a85fb01869061c70",
+      "candidate_offset": 427
+    },
+    {
+      "selection_position": 451,
+      "official_position": 1626,
+      "category": "Object properties/Object color",
+      "index": 506,
+      "path": "MiniFrance/59-2012-0735-7030-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "9ad885762299f8297ed6fa5106c05a31277d52ef815e75b9c7cfafb6b1df16a4",
+      "candidate_offset": 442
+    },
+    {
+      "selection_position": 452,
+      "official_position": 1642,
+      "category": "Object properties/Object color",
+      "index": 522,
+      "path": "MiniFrance/59-2012-0655-7085-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "dcb1b685566c7c063960f2eccc7fef28982ad10b0fda94c256be1a0d2490e75f",
+      "candidate_offset": 456
+    },
+    {
+      "selection_position": 453,
+      "official_position": 1656,
+      "category": "Object properties/Object color",
+      "index": 536,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6687.png",
+      "identity_sha256": "8342724842b40d6da997c0907828249f5e6ebbab7bbc3d41fa1e1b9fbed6a19e",
+      "candidate_offset": 470
+    },
+    {
+      "selection_position": 454,
+      "official_position": 1672,
+      "category": "Object properties/Object color",
+      "index": 552,
+      "path": "MiniFrance/56-2013-0310-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "0effa53794ca15de7678166b83b27018f06f05d6a0339d0cf0c91530834644b4",
+      "candidate_offset": 484
+    },
+    {
+      "selection_position": 455,
+      "official_position": 1691,
+      "category": "Object properties/Object color",
+      "index": 571,
+      "path": "MiniFrance/44-2013-0320-6690-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "01152f7aee4669e5cedabaf2af6d93c68dd00a417e2ba376e94c4d6a2d9efc93",
+      "candidate_offset": 499
+    },
+    {
+      "selection_position": 456,
+      "official_position": 1705,
+      "category": "Object properties/Object color",
+      "index": 585,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3369.png",
+      "identity_sha256": "18bbe5d28e4fd7f9d5dd930eb10c57b3a9f7aa5bf697c9a66965618bc37df76b",
+      "candidate_offset": 513
+    },
+    {
+      "selection_position": 457,
+      "official_position": 1721,
+      "category": "Object properties/Object color",
+      "index": 601,
+      "path": "MiniFrance/22-2012-0210-6820-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "38f07e9dbad1fdffae60721bd20d3f394842b5319bfd41518b206f29bbd4d369",
+      "candidate_offset": 527
+    },
+    {
+      "selection_position": 458,
+      "official_position": 1737,
+      "category": "Object properties/Object color",
+      "index": 617,
+      "path": "MiniFrance/44-2013-0360-6745-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "77a9e4594a4f1d5d19bdb2433261868c579d4b52830e45dd15d9c5845cf9fcea",
+      "candidate_offset": 541
+    },
+    {
+      "selection_position": 459,
+      "official_position": 1756,
+      "category": "Object properties/Object color",
+      "index": 636,
+      "path": "MiniFrance/29-2012-0160-6855-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "a2943272fabb1fcfc08bc43fdaefe7e4449825403ac6ec64bdd7da04db124634",
+      "candidate_offset": 556
+    },
+    {
+      "selection_position": 460,
+      "official_position": 1770,
+      "category": "Object properties/Object color",
+      "index": 650,
+      "path": "MiniFrance/44-2013-0375-6750-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "f78fe9c99ab0f17ab8113b679c27d95c0d2b34a7e1d14b1323f56622916f2139",
+      "candidate_offset": 570
+    },
+    {
+      "selection_position": 461,
+      "official_position": 1786,
+      "category": "Object properties/Object color",
+      "index": 666,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5174.png",
+      "identity_sha256": "554b4586e6dbd09915a471d391b6d7f51b2ec91c7096b17fd6cbdc56c8666f6b",
+      "candidate_offset": 584
+    },
+    {
+      "selection_position": 462,
+      "official_position": 1802,
+      "category": "Object properties/Object color",
+      "index": 682,
+      "path": "HRSCD/2012/35-2012-0335-6820-LA93-0M50-E080.tif",
+      "identity_sha256": "99e8bde3e5177ea3cee3954d7888bb5690381bbb6bc24346f0ca9fbbf3df0ae6",
+      "candidate_offset": 598
+    },
+    {
+      "selection_position": 463,
+      "official_position": 1821,
+      "category": "Object properties/Object color",
+      "index": 701,
+      "path": "MiniFrance/44-2013-0335-6740-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "bc848c7ce7235cb0f00ea4dd541a268469a8c30b0751fdaabcbd7f6c928b6cac",
+      "candidate_offset": 613
+    },
+    {
+      "selection_position": 464,
+      "official_position": 1835,
+      "category": "Object properties/Object color",
+      "index": 715,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P2909.png",
+      "identity_sha256": "5c83db51063595006bb28d4e3eb282032ccf7e0182c9598755a05c43a679fbbd",
+      "candidate_offset": 627
+    },
+    {
+      "selection_position": 465,
+      "official_position": 1851,
+      "category": "Object properties/Object color",
+      "index": 731,
+      "path": "MiniFrance/44-2013-0310-6700-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "cf5680d90ba0e818aadcb5f7c19fc46031d950caf789397e2a30796fb43b46ba",
+      "candidate_offset": 641
+    },
+    {
+      "selection_position": 466,
+      "official_position": 1867,
+      "category": "Object properties/Object color",
+      "index": 747,
+      "path": "MiniFrance/29-2012-0170-6790-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "e035cf565f6b282eb9cd89931621d05a9c3519e857cdd4b1787f23d9292c41c3",
+      "candidate_offset": 655
+    },
+    {
+      "selection_position": 467,
+      "official_position": 1886,
+      "category": "Object properties/Object color",
+      "index": 766,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3073.png",
+      "identity_sha256": "657fc713281c9f24059cd4a255aedcdda2e212b03bba942ee9aed008e1438b60",
+      "candidate_offset": 670
+    },
+    {
+      "selection_position": 468,
+      "official_position": 1900,
+      "category": "Object properties/Object color",
+      "index": 780,
+      "path": "MiniFrance/44-2013-0335-6680-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "7674a01a0d88f373af22a68257d1a74beb133776a1ecf766743ac7d329f378f0",
+      "candidate_offset": 684
+    },
+    {
+      "selection_position": 469,
+      "official_position": 1916,
+      "category": "Object properties/Object color",
+      "index": 796,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6525.png",
+      "identity_sha256": "1963ab28965a8b682958cbc55ec2f262d69674868450caae1e3c3b6b85d438c9",
+      "candidate_offset": 698
+    },
+    {
+      "selection_position": 470,
+      "official_position": 201,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 1,
+      "path": "HRSCD/2012/35-2012-0345-6765-LA93-0M50-E080.tif",
+      "identity_sha256": "40d977dfa0b2b15b08cbf5bb478d0619c5e258793e46e4bd316f552361fec62e",
+      "candidate_offset": 0
+    },
+    {
+      "selection_position": 471,
+      "official_position": 211,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 11,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10117.png",
+      "identity_sha256": "d8044760a8b70ee3b4159d9e6ad21b8a64025678a7763e91e2c8dddf6e648dae",
+      "candidate_offset": 9
+    },
+    {
+      "selection_position": 472,
+      "official_position": 221,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 21,
+      "path": "HRSCD/2006/35-2006-0355-6810-LA93.tif",
+      "identity_sha256": "2cffc4fbe7446af77b211566b98c4091835269864592e9342c1c1e27b698a94f",
+      "candidate_offset": 18
+    },
+    {
+      "selection_position": 473,
+      "official_position": 231,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 31,
+      "path": "HRSCD/2012/35-2012-0330-6765-LA93-0M50-E080.tif",
+      "identity_sha256": "5a580ec8b28e0510c9ce84215f14735ebca78dc4b18b3ea8c7d60b6fa8c57b40",
+      "candidate_offset": 27
+    },
+    {
+      "selection_position": 474,
+      "official_position": 242,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 42,
+      "path": "MiniFrance/59-2012-0735-7030-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "fff3d841f1a79974d14a5e24feb97f7d01536ee01c7536c3c8f56273420428d1",
+      "candidate_offset": 37
+    },
+    {
+      "selection_position": 475,
+      "official_position": 252,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 52,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3448.png",
+      "identity_sha256": "de690490c2b4cf27e627b4d7edcccd387e3565ada6d29b176e9b04b2cc3cf2e2",
+      "candidate_offset": 46
+    },
+    {
+      "selection_position": 476,
+      "official_position": 262,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 62,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10722.png",
+      "identity_sha256": "46af9c360d9e52733ed19f2dbabd76c6bb025a6425ed388623c0cd1d24d57290",
+      "candidate_offset": 55
+    },
+    {
+      "selection_position": 477,
+      "official_position": 272,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 72,
+      "path": "HRSCD/2012/35-2012-0345-6795-LA93-0M50-E080.tif",
+      "identity_sha256": "2a8eac52a974dee7098a4666a388be099d8f23fdca5526d5aef323a885052ce9",
+      "candidate_offset": 64
+    },
+    {
+      "selection_position": 478,
+      "official_position": 282,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 82,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5647.png",
+      "identity_sha256": "f5783514697d1d3df19e75b7a380499e8d478a9a0663d8a7afba6eac52c8695a",
+      "candidate_offset": 73
+    },
+    {
+      "selection_position": 479,
+      "official_position": 292,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 92,
+      "path": "MiniFrance/44-2013-0400-6715-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "8903901403247db67db6d8e64e79e64c87a34cd3cedbeb25e7bc89bc761b256e",
+      "candidate_offset": 82
+    },
+    {
+      "selection_position": 480,
+      "official_position": 301,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 101,
+      "path": "MiniFrance/44-2013-0380-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "b7c27916200dee5508d64d925aba25acbfc74ffe3c82654818a57ebcb7247176",
+      "candidate_offset": 91
+    },
+    {
+      "selection_position": 481,
+      "official_position": 313,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 113,
+      "path": "MiniFrance/59-2012-0750-7005-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "75236cc57c0006cd3369446d46e01d1902a44b527b5119653442d811fb45c435",
+      "candidate_offset": 101
+    },
+    {
+      "selection_position": 482,
+      "official_position": 323,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 123,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4575.png",
+      "identity_sha256": "70e10badf9c6d77252d923bdecad75556c3324a3ffea36446dd01f9ce23e41b0",
+      "candidate_offset": 110
+    },
+    {
+      "selection_position": 483,
+      "official_position": 333,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 133,
+      "path": "MiniFrance/44-2013-0320-6695-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "a11ff9142a1d7f79c121acd2ccc856eaeaf198beeadb0db1d779b6a5e51c8d50",
+      "candidate_offset": 119
+    },
+    {
+      "selection_position": 484,
+      "official_position": 343,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 143,
+      "path": "MiniFrance/62-2012-0680-7020-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "d89b850b74fdb876ea6048c98b0c3afe4789bf00ac93e318b87087c805636dd0",
+      "candidate_offset": 128
+    },
+    {
+      "selection_position": 485,
+      "official_position": 353,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 153,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P8175.png",
+      "identity_sha256": "2517f625ea0f0ab097071519fa3693717b161009e88503d7af77210cbc4d7a40",
+      "candidate_offset": 137
+    },
+    {
+      "selection_position": 486,
+      "official_position": 362,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 162,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5520.png",
+      "identity_sha256": "7bfa989ebeab6b902ab9b416c5d16ca012da4f0a6dcb71f8271b550e21b91257",
+      "candidate_offset": 146
+    },
+    {
+      "selection_position": 487,
+      "official_position": 372,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 172,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11104.png",
+      "identity_sha256": "3712547136365778609ad98735218ff1c587fec257751bb0ed50515a9a569770",
+      "candidate_offset": 155
+    },
+    {
+      "selection_position": 488,
+      "official_position": 384,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 184,
+      "path": "HRSCD/2006/35-2006-0375-6775-LA93.tif",
+      "identity_sha256": "e8b48ebd44674f0548329b036991615242d71c759fa878fb2d15e17a6e4c1e95",
+      "candidate_offset": 165
+    },
+    {
+      "selection_position": 489,
+      "official_position": 394,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 194,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4159.png",
+      "identity_sha256": "6dec0d6091fc651e946139208237b2cfb8bb6d44b672980bbbd1ce4d8f187082",
+      "candidate_offset": 174
+    },
+    {
+      "selection_position": 490,
+      "official_position": 404,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 204,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5659.png",
+      "identity_sha256": "35e2a8750adbbde889494982fde4420a5ffa7026b63d9d76645b063c1f7091c5",
+      "candidate_offset": 183
+    },
+    {
+      "selection_position": 491,
+      "official_position": 414,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 214,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4017.png",
+      "identity_sha256": "acd1702f522699bac52b0019c2c04358ca39d04a430d8254814903ce42f7fb73",
+      "candidate_offset": 192
+    },
+    {
+      "selection_position": 492,
+      "official_position": 423,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 223,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6615.png",
+      "identity_sha256": "e695afb1f6d40598411198052fb3c5591ac32df9caf6d87ad48eb4435d45d1c3",
+      "candidate_offset": 201
+    },
+    {
+      "selection_position": 493,
+      "official_position": 433,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 233,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3839.png",
+      "identity_sha256": "f1a0de0cb24267f75a2a41114524211f61722c2752c119d7d9b6badacede287e",
+      "candidate_offset": 210
+    },
+    {
+      "selection_position": 494,
+      "official_position": 443,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 243,
+      "path": "MiniFrance/44-2013-0355-6740-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "74668ed4823b9041a3228adc9a359a866a240a60c03aa1080f090f8d46c116fe",
+      "candidate_offset": 219
+    },
+    {
+      "selection_position": 495,
+      "official_position": 455,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 255,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P9481.png",
+      "identity_sha256": "574de82eddd62a9c86c1c1f201ea3797868fe461fa68864563e1295e2c28551f",
+      "candidate_offset": 229
+    },
+    {
+      "selection_position": 496,
+      "official_position": 465,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 265,
+      "path": "HRSCD/2012/35-2012-0350-6770-LA93-0M50-E080.tif",
+      "identity_sha256": "1ce0b8331b6209cfe80c79e18e353813288264eb0d38803a21c1471eacf921b3",
+      "candidate_offset": 238
+    },
+    {
+      "selection_position": 497,
+      "official_position": 475,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 275,
+      "path": "MiniFrance/44-2013-0370-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "242e0eca85b983c420ef3a4b49dc0b00092eed34770fe06a6bf922d19f50b870",
+      "candidate_offset": 247
+    },
+    {
+      "selection_position": 498,
+      "official_position": 484,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 284,
+      "path": "HRSCD/2012/35-2012-0355-6760-LA93-0M50-E080.tif",
+      "identity_sha256": "5ceffd2e31cd81ad7187d4eb4a88adc844c9dbb47d99b0a3dee77b0affda1970",
+      "candidate_offset": 256
+    },
+    {
+      "selection_position": 499,
+      "official_position": 494,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 294,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10475.png",
+      "identity_sha256": "1b56af09710e2632428671cc24300415e795da95ab8e71c83372edb2b8583d1c",
+      "candidate_offset": 265
+    },
+    {
+      "selection_position": 500,
+      "official_position": 504,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 304,
+      "path": "HRSCD/2006/35-2006-0330-6770-LA93.tif",
+      "identity_sha256": "e64ef5a80910105b5e2e87f68944a69114cb917b6e26430ab1c1f9ce0fc8ffd9",
+      "candidate_offset": 274
+    },
+    {
+      "selection_position": 501,
+      "official_position": 514,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 314,
+      "path": "MiniFrance/44-2013-0365-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "2eabddbe810bfce04bc78e7b00a0d52fbeff19236d712142ecd9625be03aefee",
+      "candidate_offset": 283
+    },
+    {
+      "selection_position": 502,
+      "official_position": 526,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 326,
+      "path": "MiniFrance/44-2013-0350-6655-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "147ee875594b4d8e8e912f971c21d9254e03ccce380f8cdbb9bf619eb5e484fc",
+      "candidate_offset": 293
+    },
+    {
+      "selection_position": 503,
+      "official_position": 536,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 336,
+      "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P6760.png",
+      "identity_sha256": "a972303852706454e30eb70d54e4ff709d47a8b7d630f8003eb5152e1af5ea44",
+      "candidate_offset": 302
+    },
+    {
+      "selection_position": 504,
+      "official_position": 545,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 345,
+      "path": "HRSCD/2006/35-2006-0375-6795-LA93.tif",
+      "identity_sha256": "e8093d80a06ac3228c80cf5c61b81bbb2a320c92df7ad2d60ec3ea5333af7918",
+      "candidate_offset": 311
+    },
+    {
+      "selection_position": 505,
+      "official_position": 555,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 355,
+      "path": "MiniFrance/44-2013-0390-6735-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "ef4bf6a4f91738b43ef39ce2c7899bb65422604771320ed75dbe1786aafdb706",
+      "candidate_offset": 320
+    },
+    {
+      "selection_position": 506,
+      "official_position": 565,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 365,
+      "path": "MiniFrance/22-2012-0230-6860-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "d5371fd7f6fea1dabf9fa3c581e8e6525705353c2430eae02dbb8a17cce5d659",
+      "candidate_offset": 329
+    },
+    {
+      "selection_position": 507,
+      "official_position": 575,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 375,
+      "path": "MiniFrance/62-2012-0630-7050-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "fbbbf9eadbd638a9bc9239b36f6632fa7038eac79bd10088dedca94247c58660",
+      "candidate_offset": 338
+    },
+    {
+      "selection_position": 508,
+      "official_position": 585,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 385,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3369.png",
+      "identity_sha256": "ca875ab780c788ce1f3f424e90c4b46085165445505b1bb81325e524f3197eee",
+      "candidate_offset": 347
+    },
+    {
+      "selection_position": 509,
+      "official_position": 597,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 397,
+      "path": "HRSCD/2012/35-2012-0350-6765-LA93-0M50-E080.tif",
+      "identity_sha256": "d768fa63c93003315186ffa027c8dc99cc1c0eacd12e87faea417e89238411b8",
+      "candidate_offset": 357
+    },
+    {
+      "selection_position": 510,
+      "official_position": 606,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 406,
+      "path": "MiniFrance/44-2013-0350-6685-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "3d0e1da096a5934ceb3873661bf5f76775bef42bbc0414ee8ef3c7105e783db3",
+      "candidate_offset": 366
+    },
+    {
+      "selection_position": 511,
+      "official_position": 616,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 416,
+      "path": "MiniFrance/44-2013-0360-6755-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "41f04fadeb166d06f4c748461a557f17a506b370fc23c822baa799f9136c41d0",
+      "candidate_offset": 375
+    },
+    {
+      "selection_position": 512,
+      "official_position": 626,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 426,
+      "path": "MiniFrance/44-2013-0340-6670-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "bcc036a0f16942fba5d09a93603a428e65809878b3599a9e79e675a575402031",
+      "candidate_offset": 384
+    },
+    {
+      "selection_position": 513,
+      "official_position": 636,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 436,
+      "path": "MiniFrance/72-2013-0500-6740-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "84dc5fa027527a018110213a93cc454a91567119daee69ce207e2717a2d83735",
+      "candidate_offset": 393
+    },
+    {
+      "selection_position": 514,
+      "official_position": 646,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 446,
+      "path": "HRSCD/2012/35-2012-0360-6790-LA93-0M50-E080.tif",
+      "identity_sha256": "1fde0a68c95d0c76751e508d5316075b3daee599e53269284a0d16d44ef93ea6",
+      "candidate_offset": 402
+    },
+    {
+      "selection_position": 515,
+      "official_position": 656,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 456,
+      "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10960.png",
+      "identity_sha256": "137b8c967c429d514a49bba9c60b60e75dcb7686fdf3391ca37bdd323c4e7671",
+      "candidate_offset": 411
+    },
+    {
+      "selection_position": 516,
+      "official_position": 667,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 467,
+      "path": "HRSCD/2006/35-2006-0355-6800-LA93.tif",
+      "identity_sha256": "d78b75a9843f8667a231bef8f99142efbfa1a2ffda9fe7ccd0508bc5cbf9719e",
+      "candidate_offset": 421
+    },
+    {
+      "selection_position": 517,
+      "official_position": 677,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 477,
+      "path": "MiniFrance/62-2012-0600-7065-LA93-0M50-E080.jp2.tif",
+      "identity_sha256": "f6f6d4bbe1d6a135697228e1b8f1468ab78c21d538a1b8a15e790d4fc682cf2f",
+      "candidate_offset": 430
+    },
+    {
+      "selection_position": 518,
+      "official_position": 687,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 487,
+      "path": "HRSCD/2006/35-2006-0355-6770-LA93.tif",
+      "identity_sha256": "353ed8ff6c11edb2a96f2a2552c213ce65c7accb3d7063d985b6f1fd773de021",
+      "candidate_offset": 439
+    },
+    {
+      "selection_position": 519,
+      "official_position": 697,
+      "category": "Object spatial relationship/Object spatial relationship",
+      "index": 497,
+      "path": "HRSCD/2006/35-2006-0350-6745-LA93.tif",
+      "identity_sha256": "697fd07451c610cabceebd8537078a59192bdde0ebd8a05c18f58d22baa434e6",
+      "candidate_offset": 448
+    }
+  ]
+}

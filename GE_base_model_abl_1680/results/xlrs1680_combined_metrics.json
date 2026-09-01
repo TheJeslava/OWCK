@@ -1,0 +1,102 @@
+{
+  "scoring": "GeoEyes official rule extraction; independent LLM judge not run",
+  "combination": "three disjoint XLRS selections: 760 + 520 + 400",
+  "component_runs": {
+    "batch_760": {
+      "source": "batch_760/metrics.json",
+      "total_samples": 760,
+      "total_correct": 342,
+      "overall_accuracy": 0.45
+    },
+    "batch_520": {
+      "source": "batch_520/metrics.json",
+      "total_samples": 520,
+      "total_correct": 224,
+      "overall_accuracy": 0.4307692307692308
+    },
+    "batch_400": {
+      "source": "batch_400/metrics.json",
+      "total_samples": 400,
+      "total_correct": 160,
+      "overall_accuracy": 0.4
+    }
+  },
+  "total_samples": 1680,
+  "total_correct": 726,
+  "overall_accuracy": 0.43214285714285716,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "correct": 72,
+      "total": 100,
+      "accuracy": 0.72
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "correct": 84,
+      "total": 100,
+      "accuracy": 0.84
+    },
+    "Complex reasoning/Route planning": {
+      "correct": 42,
+      "total": 100,
+      "accuracy": 0.42
+    },
+    "Counting/Counting with changing detection": {
+      "correct": 26,
+      "total": 60,
+      "accuracy": 0.43333333333333335
+    },
+    "Counting/Counting with complex reasoning": {
+      "correct": 46,
+      "total": 100,
+      "accuracy": 0.46
+    },
+    "Counting/Overall counting": {
+      "correct": 15,
+      "total": 60,
+      "accuracy": 0.25
+    },
+    "Counting/Regional counting": {
+      "correct": 40,
+      "total": 100,
+      "accuracy": 0.4
+    },
+    "Land use classification/Overall Land use classification": {
+      "correct": 2,
+      "total": 100,
+      "accuracy": 0.02
+    },
+    "Land use classification/Regional Land use classification": {
+      "correct": 112,
+      "total": 200,
+      "accuracy": 0.56
+    },
+    "Object properties/Object classification": {
+      "correct": 81,
+      "total": 250,
+      "accuracy": 0.324
+    },
+    "Object properties/Object color": {
+      "correct": 94,
+      "total": 250,
+      "accuracy": 0.376
+    },
+    "Object properties/Object motion state": {
+      "correct": 39,
+      "total": 60,
+      "accuracy": 0.65
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 73,
+      "total": 200,
+      "accuracy": 0.365
+    }
+  },
+  "status_stats": {
+    "success": 1680
+  },
+  "tool_usage": {
+    "total_calls": 0,
+    "average_calls_per_sample": 0.0,
+    "samples_with_tool": 0
+  }
+}

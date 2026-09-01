@@ -1,0 +1,36 @@
+{
+  "scoring": "GeoEyes official rule extraction; independent LLM judge not run",
+  "total_samples": 400,
+  "total_correct": 160,
+  "overall_accuracy": 0.4,
+  "categories": {
+    "Land use classification/Regional Land use classification": {
+      "correct": 64,
+      "total": 100,
+      "accuracy": 0.64
+    },
+    "Object properties/Object classification": {
+      "correct": 26,
+      "total": 100,
+      "accuracy": 0.26
+    },
+    "Object properties/Object color": {
+      "correct": 37,
+      "total": 100,
+      "accuracy": 0.37
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "correct": 33,
+      "total": 100,
+      "accuracy": 0.33
+    }
+  },
+  "status_stats": {
+    "success": 400
+  },
+  "tool_usage": {
+    "total_calls": 0,
+    "average_calls_per_sample": 0.0,
+    "samples_with_tool": 0
+  }
+}
