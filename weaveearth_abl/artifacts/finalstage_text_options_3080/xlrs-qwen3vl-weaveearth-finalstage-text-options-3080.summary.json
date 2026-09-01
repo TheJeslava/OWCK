@@ -1,0 +1,109 @@
+{
+  "650": {
+    "records": 650,
+    "correct": 315,
+    "accuracy": 0.4846153846153846,
+    "elapsed_sum": 1297.5323159992695,
+    "elapsed_mean": 1.9962035630757993,
+    "answer_tag_outputs": 650,
+    "status_counts": {
+      "ok": 650
+    }
+  },
+  "remaining": {
+    "records": 2430,
+    "correct": 996,
+    "accuracy": 0.40987654320987654,
+    "elapsed_sum": 4956.260019253939,
+    "elapsed_mean": 2.0396131766477117,
+    "answer_tag_outputs": 2430,
+    "status_counts": {
+      "ok": 2430
+    }
+  },
+  "3080": {
+    "records": 3080,
+    "correct": 1311,
+    "accuracy": 0.42564935064935067,
+    "elapsed_sum": 6253.792335253209,
+    "elapsed_mean": 2.0304520569003923,
+    "answer_tag_outputs": 3080,
+    "status_counts": {
+      "ok": 3080
+    },
+    "categories": {
+      "Complex reasoning/Anomaly Detection and Interpretation": {
+        "samples": 100,
+        "correct": 72,
+        "accuracy": 0.72
+      },
+      "Complex reasoning/Environmental condition reasoning": {
+        "samples": 100,
+        "correct": 81,
+        "accuracy": 0.81
+      },
+      "Complex reasoning/Route planning": {
+        "samples": 100,
+        "correct": 29,
+        "accuracy": 0.29
+      },
+      "Counting/Counting with changing detection": {
+        "samples": 60,
+        "correct": 31,
+        "accuracy": 0.5166666666666667
+      },
+      "Counting/Counting with complex reasoning": {
+        "samples": 100,
+        "correct": 52,
+        "accuracy": 0.52
+      },
+      "Counting/Overall counting": {
+        "samples": 60,
+        "correct": 9,
+        "accuracy": 0.15
+      },
+      "Counting/Regional counting": {
+        "samples": 100,
+        "correct": 23,
+        "accuracy": 0.23
+      },
+      "Land use classification/Overall Land use classification": {
+        "samples": 100,
+        "correct": 30,
+        "accuracy": 0.3
+      },
+      "Land use classification/Regional Land use classification": {
+        "samples": 200,
+        "correct": 155,
+        "accuracy": 0.775
+      },
+      "Object properties/Object classification": {
+        "samples": 800,
+        "correct": 335,
+        "accuracy": 0.41875
+      },
+      "Object properties/Object color": {
+        "samples": 800,
+        "correct": 318,
+        "accuracy": 0.3975
+      },
+      "Object properties/Object motion state": {
+        "samples": 60,
+        "correct": 40,
+        "accuracy": 0.6666666666666666
+      },
+      "Object spatial relationship/Object spatial relationship": {
+        "samples": 500,
+        "correct": 136,
+        "accuracy": 0.272
+      }
+    },
+    "coverage": {
+      "first_650": 650,
+      "remaining_2430": 2430,
+      "overlap": 0,
+      "missing": 0,
+      "unexpected": 0
+    }
+  }
+}

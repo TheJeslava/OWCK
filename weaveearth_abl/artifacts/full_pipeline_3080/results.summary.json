@@ -1,0 +1,109 @@
+{
+  "verification": "passed",
+  "total_samples": 3080,
+  "phase_samples": {
+    "first_650": 650,
+    "remaining_2430": 2430
+  },
+  "jsonl_lines": {
+    "first_650": 750,
+    "remaining_2430": 2430
+  },
+  "coverage": {
+    "positions": "0..3079",
+    "overlap_count": 0,
+    "missing_count": 0
+  },
+  "statuses": {
+    "ok": 3080
+  },
+  "semantic_retrieval_samples": 3080,
+  "support_regions_per_sample": 6,
+  "correct": 1316,
+  "parsed_predictions": 3079,
+  "accuracy": 0.42727272727272725,
+  "categories": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "samples": 100,
+      "correct": 74,
+      "parsed_predictions": 100,
+      "accuracy": 0.74
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "samples": 100,
+      "correct": 82,
+      "parsed_predictions": 100,
+      "accuracy": 0.82
+    },
+    "Complex reasoning/Route planning": {
+      "samples": 100,
+      "correct": 30,
+      "parsed_predictions": 100,
+      "accuracy": 0.3
+    },
+    "Counting/Counting with changing detection": {
+      "samples": 60,
+      "correct": 28,
+      "parsed_predictions": 60,
+      "accuracy": 0.4666666666666667
+    },
+    "Counting/Counting with complex reasoning": {
+      "samples": 100,
+      "correct": 52,
+      "parsed_predictions": 100,
+      "accuracy": 0.52
+    },
+    "Counting/Overall counting": {
+      "samples": 60,
+      "correct": 13,
+      "parsed_predictions": 60,
+      "accuracy": 0.21666666666666667
+    },
+    "Counting/Regional counting": {
+      "samples": 100,
+      "correct": 50,
+      "parsed_predictions": 100,
+      "accuracy": 0.5
+    },
+    "Land use classification/Overall Land use classification": {
+      "samples": 100,
+      "correct": 29,
+      "parsed_predictions": 99,
+      "accuracy": 0.29
+    },
+    "Land use classification/Regional Land use classification": {
+      "samples": 200,
+      "correct": 162,
+      "parsed_predictions": 200,
+      "accuracy": 0.81
+    },
+    "Object properties/Object classification": {
+      "samples": 800,
+      "correct": 317,
+      "parsed_predictions": 800,
+      "accuracy": 0.39625
+    },
+    "Object properties/Object color": {
+      "samples": 800,
+      "correct": 303,
+      "parsed_predictions": 800,
+      "accuracy": 0.37875
+    },
+    "Object properties/Object motion state": {
+      "samples": 60,
+      "correct": 41,
+      "parsed_predictions": 60,
+      "accuracy": 0.6833333333333333
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "samples": 500,
+      "correct": 135,
+      "parsed_predictions": 500,
+      "accuracy": 0.27
+    }
+  },
+  "sources": {
+    "first_650": "/root/autodl-tmp/otws/weaveearth/output/xlrs-qwen3vl-650/results.jsonl",
+    "remaining_2430": "/root/autodl-tmp/otws/weaveearth/output/xlrs-qwen3vl-remaining-2430/results.jsonl"
+  }
+}

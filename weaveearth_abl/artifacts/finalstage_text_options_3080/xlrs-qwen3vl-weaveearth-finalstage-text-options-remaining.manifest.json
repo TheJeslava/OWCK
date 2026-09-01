@@ -1,0 +1,26 @@
+{
+  "runner": "/root/autodl-tmp/otws/q3vlbase/inference_scripts/run_xlrs_qwen3vl_global_only.py",
+  "adapter_protocol": "xlrs_qwen3vl_weaveearth_finalstage_text_options_v3",
+  "dataset_id": "initiacms/XLRS-Bench-lite",
+  "selection": "remaining",
+  "selected": 2430,
+  "model_path": "/root/autodl-tmp/otws/weaveearth/ckpts/Qwen3-VL-8B-Instruct",
+  "weaveearth_source": "/root/autodl-tmp/otws/weaveearth/inference_scripts/eval_lrs_vqa_qwen3vl.py",
+  "weaveearth_inference_sha256": "208b2681af2b46933232079371925d24e7f933844dfb60826e05e081b1afca60",
+  "visual_input": {
+    "type": "global_thumbnail_only",
+    "source_image_policy": "first_image_only",
+    "resize_policy": "resize_long_side",
+    "target_long_side": 2048
+  },
+  "text_input": "weaveearth_finalstage_text_plus_xlrs_choices_and_answer_protocol",
+  "excluded_components": [
+    "SigLIP retrieval",
+    "routing image and router prompt",
+    "grid regions",
+    "neighbor expansion",
+    "minimal support evidence set",
+    "evidence board",
+    "structured region metadata"
+  ]
+}

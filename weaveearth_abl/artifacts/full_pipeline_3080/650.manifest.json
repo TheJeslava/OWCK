@@ -1,0 +1,29 @@
+{
+  "runner": "/root/autodl-tmp/otws/weaveearth/inference_scripts/run_xlrs_qwen3vl.py",
+  "weaveearth_source": "/root/autodl-tmp/otws/weaveearth/inference_scripts/eval_lrs_vqa_qwen3vl.py",
+  "weaveearth_inference_sha256": "208b2681af2b46933232079371925d24e7f933844dfb60826e05e081b1afca60",
+  "data_path": "/root/autodl-tmp/data/XLRS-Bench-lite-3080",
+  "model_path": "/root/autodl-tmp/otws/weaveearth/ckpts/Qwen3-VL-8B-Instruct",
+  "semantic_model_path": "/root/autodl-tmp/otws/weaveearth/ckpts/siglip2-so400m-patch16-naflex",
+  "selection": "650",
+  "selected": 650,
+  "used_attn_implementation": "sdpa",
+  "max_new_tokens": 64,
+  "semantic_encoder": {
+    "requested": true,
+    "ready": true
+  },
+  "weaveearth_args": {
+    "routing_grid_rows": 6,
+    "routing_grid_cols": 6,
+    "routing_overlap_ratio": 0.1,
+    "router_max_regions": 8,
+    "neighbor_expand": true,
+    "use_minimal_support_set": true,
+    "support_set_budget": 6,
+    "evidence_patch_size": 448,
+    "use_topology_board": true,
+    "use_structured_metadata": true,
+    "use_semantic_support": true
+  }
+}
